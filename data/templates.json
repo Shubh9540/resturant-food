@@ -1,0 +1,3532 @@
+{
+  "common": {
+    "globalUI": {
+      "siteMetadata": {
+        "title": "TASTY BITE Restaurant & Cafe",
+        "description": "Fresh food, warm hospitality and memorable dining at TASTY BITE Restaurant & Cafe.",
+        "icon": "/main logo/header logo.webp"
+      }
+    },
+    "Footer": {
+      "logo": "/main logo/logo.webp",
+      "logoAlt": "TASTY BITE Restaurant & Cafe",
+      "logoUrl": "/",
+      "backgroundImage": "/main logo/footer_bg.webp",
+      "brandTitle": "TASTY BITE",
+      "copyrightText": "© 2026 TastyBite. All Rights Reserved. Powered by Lestow",
+      "description": "We serve delicious food made with fresh ingredients in a warm and welcoming atmosphere.",
+      "quickLinksTitle": "Quick Links",
+      "openingHoursTitle": "Opening Hours",
+      "contactTitle": "Contact Info",
+      "slogan": "Good Food   Good Mood",
+      "socialLinks": [
+        {
+          "id": "social-facebook",
+          "icon": "FaFacebookF",
+          "label": "Facebook",
+          "url": "https://facebook.com"
+        },
+        {
+          "id": "social-instagram",
+          "icon": "FaInstagram",
+          "label": "Instagram",
+          "url": "https://instagram.com"
+        },
+        {
+          "id": "social-youtube",
+          "icon": "FaYoutube",
+          "label": "YouTube",
+          "url": "https://youtube.com"
+        }
+      ],
+      "quickLinks": [
+        {
+          "id": "quick-home",
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "id": "quick-about",
+          "label": "About Us",
+          "url": "/about"
+        },
+        {
+          "id": "quick-menu",
+          "label": "Our Menu",
+          "url": "/menu"
+        },
+        {
+          "id": "quick-gallery",
+          "label": "Gallery",
+          "url": "/gallery"
+        },
+        {
+          "id": "quick-blog",
+          "label": "Blog",
+          "url": "/blog"
+        },
+        {
+          "id": "quick-contact",
+          "label": "Contact Us",
+          "url": "/contact"
+        }
+      ],
+      "openingHours": [
+        {
+          "id": "opening-weekdays",
+          "days": "Monday - Friday",
+          "hours": "11:00 AM - 11:00 PM"
+        },
+        {
+          "id": "opening-weekend",
+          "days": "Saturday - Sunday",
+          "hours": "10:00 AM - 11:30 PM"
+        }
+      ],
+      "contactInfo": {
+        "email": "info@xyz.com",
+        "phone": "+1 000000000",
+        "address": "123 Main St, New York, NY, USA"
+      }
+    },
+    "notFound": {
+      "code": "404",
+      "title": "Oops! Page Not Found",
+      "description": "The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.",
+      "buttonText": "Back to Home",
+      "buttonUrl": "/"
+    },
+    "aboutBreadcrumb": {
+      "title": "About Us",
+      "bgImage": "",
+      "decorations": {
+        "topLeft": { "image": "/breadcrumb/br-shape-1.webp", "imageAlt": "Decorative leaf outline" },
+        "moving": { "image": "/breadcrumb/br-shape-2.webp", "imageAlt": "Decorative spoon outline" },
+        "right": { "image": "/breadcrumb/br-shape-3.webp", "imageAlt": "Decorative restaurant pattern" }
+      },
+      "paths": [
+        {
+          "id": "breadcrumb-about-home",
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "id": "breadcrumb-about-current",
+          "label": "About Us"
+        }
+      ]
+    },
+    "servicesBreadcrumb": {
+      "title": "Our Menu",
+      "bgImage": "",
+      "decorations": {
+        "topLeft": { "image": "/breadcrumb/br-shape-1.webp", "imageAlt": "Decorative leaf outline" },
+        "moving": { "image": "/breadcrumb/br-shape-2.webp", "imageAlt": "Decorative spoon outline" },
+        "right": { "image": "/breadcrumb/br-shape-3.webp", "imageAlt": "Decorative restaurant pattern" }
+      },
+      "paths": [
+        {
+          "id": "breadcrumb-services-home",
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "id": "breadcrumb-services-current",
+          "label": "Our Menu"
+        }
+      ]
+    },
+    "galleryBreadcrumb": {
+      "title": "Our Gallery",
+      "bgImage": "",
+      "decorations": {
+        "topLeft": { "image": "/breadcrumb/br-shape-1.webp", "imageAlt": "Decorative leaf outline" },
+        "moving": { "image": "/breadcrumb/br-shape-2.webp", "imageAlt": "Decorative spoon outline" },
+        "right": { "image": "/breadcrumb/br-shape-3.webp", "imageAlt": "Decorative restaurant pattern" }
+      },
+      "paths": [
+        { "id": "breadcrumb-gallery-home", "label": "Home", "url": "/" },
+        { "id": "breadcrumb-gallery-current", "label": "Our Gallery" }
+      ]
+    },
+    "contactBreadcrumb": {
+      "title": "Contact Us",
+      "bgImage": "",
+      "decorations": {
+        "topLeft": { "image": "/breadcrumb/br-shape-1.webp", "imageAlt": "Decorative leaf outline" },
+        "moving": { "image": "/breadcrumb/br-shape-2.webp", "imageAlt": "Decorative spoon outline" },
+        "right": { "image": "/breadcrumb/br-shape-3.webp", "imageAlt": "Decorative restaurant pattern" }
+      },
+      "paths": [
+        {
+          "id": "breadcrumb-contact-home",
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "id": "breadcrumb-contact-current",
+          "label": "Contact Us"
+        }
+      ]
+    },
+    "enquiryBreadcrumb": {
+      "title": "Enquiry Now",
+      "bgImage": "",
+      "decorations": {
+        "topLeft": { "image": "/breadcrumb/br-shape-1.webp", "imageAlt": "Decorative leaf outline" },
+        "moving": { "image": "/breadcrumb/br-shape-2.webp", "imageAlt": "Decorative spoon outline" },
+        "right": { "image": "/breadcrumb/br-shape-3.webp", "imageAlt": "Decorative restaurant pattern" }
+      },
+      "paths": [
+        {
+          "id": "breadcrumb-enquiry-home",
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "id": "breadcrumb-enquiry-current",
+          "label": "Enquiry Now"
+        }
+      ]
+    },
+    "bookingBreadcrumb": {
+      "title": "Book a Table",
+      "bgImage": "",
+      "decorations": {
+        "topLeft": { "image": "/breadcrumb/br-shape-1.webp", "imageAlt": "Decorative leaf outline" },
+        "moving": { "image": "/breadcrumb/br-shape-2.webp", "imageAlt": "Decorative spoon outline" },
+        "right": { "image": "/breadcrumb/br-shape-3.webp", "imageAlt": "Decorative restaurant pattern" }
+      },
+      "paths": [
+        { "id": "breadcrumb-booking-home", "label": "Home", "url": "/" },
+        { "id": "breadcrumb-booking-current", "label": "Book a Table" }
+      ]
+    },
+    "teamBreadcrumb": {
+      "title": "Our Chefs",
+      "bgImage": "",
+      "decorations": {
+        "topLeft": { "image": "/breadcrumb/br-shape-1.webp", "imageAlt": "Decorative leaf outline" },
+        "moving": { "image": "/breadcrumb/br-shape-2.webp", "imageAlt": "Decorative spoon outline" },
+        "right": { "image": "/breadcrumb/br-shape-3.webp", "imageAlt": "Decorative restaurant pattern" }
+      },
+      "paths": [
+        {
+          "id": "breadcrumb-team-home",
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "id": "breadcrumb-team-current",
+          "label": "Our Chefs"
+        }
+      ]
+    },
+    "testimonialsBreadcrumb": {
+      "title": "Testimonials",
+      "bgImage": "",
+      "decorations": {
+        "topLeft": { "image": "/breadcrumb/br-shape-1.webp", "imageAlt": "Decorative leaf outline" },
+        "moving": { "image": "/breadcrumb/br-shape-2.webp", "imageAlt": "Decorative spoon outline" },
+        "right": { "image": "/breadcrumb/br-shape-3.webp", "imageAlt": "Decorative restaurant pattern" }
+      },
+      "paths": [
+        {
+          "id": "breadcrumb-testimonials-home",
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "id": "breadcrumb-testimonials-current",
+          "label": "Testimonials"
+        }
+      ]
+    },
+    "blogsBreadcrumb": {
+      "title": "Blogs",
+      "bgImage": "",
+      "decorations": {
+        "topLeft": { "image": "/breadcrumb/br-shape-1.webp", "imageAlt": "Decorative leaf outline" },
+        "moving": { "image": "/breadcrumb/br-shape-2.webp", "imageAlt": "Decorative spoon outline" },
+        "right": { "image": "/breadcrumb/br-shape-3.webp", "imageAlt": "Decorative restaurant pattern" }
+      },
+      "paths": [
+        {
+          "id": "breadcrumb-blogs-home",
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "id": "breadcrumb-blogs-current",
+          "label": "Blogs"
+        }
+      ]
+    },
+    "blogDetailBreadcrumb": {
+      "title": "Blog Details",
+      "bgImage": "",
+      "decorations": {
+        "topLeft": { "image": "/breadcrumb/br-shape-1.webp", "imageAlt": "Decorative leaf outline" },
+        "moving": { "image": "/breadcrumb/br-shape-2.webp", "imageAlt": "Decorative spoon outline" },
+        "right": { "image": "/breadcrumb/br-shape-3.webp", "imageAlt": "Decorative restaurant pattern" }
+      },
+      "paths": [
+        { "id": "breadcrumb-blog-detail-home", "label": "Home", "url": "/" },
+        { "id": "breadcrumb-blog-detail-blogs", "label": "Our Blogs", "url": "/blog" },
+        { "id": "breadcrumb-blog-detail-current", "label": "Blog Details" }
+      ]
+    }
+  },
+  "categories": {
+    "RestaurantFood": {
+      "sections": {
+        "TopBar": {
+          "variants": {
+            "RestaurantFoodTopBar1": {
+              "infoItems": [
+                {
+                  "id": "topbar-location",
+                  "icon": "FiMapPin",
+                  "value": "123 Main St, New York, NY, USA"
+                },
+                {
+                  "id": "topbar-phone",
+                  "icon": "FiPhone",
+                  "value": "+1 00000 00000",
+                  "url": "tel:+00000000000"
+                },
+                {
+                  "id": "topbar-hours",
+                  "icon": "FiClock",
+                  "value": "Open: 11:00 AM - 11:00 PM"
+                }
+              ],
+              "socialLinks": [
+                {
+                  "id": "topbar-facebook",
+                  "icon": "FaFacebookF",
+                  "label": "Facebook",
+                  "url": "https://www.facebook.com"
+                },
+                {
+                  "id": "topbar-instagram",
+                  "icon": "FaInstagram",
+                  "label": "Instagram",
+                  "url": "https://www.instagram.com"
+                },
+                {
+                  "id": "topbar-youtube",
+                  "icon": "FaYoutube",
+                  "label": "YouTube",
+                  "url": "https://www.youtube.com"
+                },
+                {
+                  "id": "topbar-tripadvisor",
+                  "icon": "FaTripadvisor",
+                  "label": "Tripadvisor",
+                  "url": "https://www.tripadvisor.com"
+                }
+              ],
+              "searchLabel": "Search"
+            }
+          }
+        },
+        "Header": {
+          "variants": {
+            "RestaurantFoodHeader1": {
+              "logo": "/main logo/logo.webp",
+              "logoAlt": "TASTY BITE Restaurant & Cafe",
+              "navLinksLeft": [
+                {
+                  "id": "nl-home",
+                  "label": "Home",
+                  "url": "/"
+                },
+                {
+                  "id": "nl-about",
+                  "label": "About Us",
+                  "url": "/about"
+                },
+                {
+                  "id": "nl-services",
+                  "label": "Our Menu",
+                  "url": "/menu"
+                },
+                {
+                  "id": "nl-team",
+                  "label": "Our Chefs",
+                  "url": "/chefs"
+                }
+              ],
+              "navLinksRight": [
+                {
+                  "id": "nl-gallery",
+                  "label": "Gallery",
+                  "url": "/gallery"
+                },
+                {
+                  "id": "nl-testimonials",
+                  "label": "Testimonials",
+                  "url": "/testimonials"
+                },
+                {
+                  "id": "nl-blogs",
+                  "label": "Blogs",
+                  "url": "/blog"
+                },
+                {
+                  "id": "nl-contact",
+                  "label": "Contact Us",
+                  "url": "/contact"
+                }
+              ],
+              "contactButton": {
+                "text": "Book a Table",
+                "url": "/book-a-table",
+                "leadingIcon": "FaUtensils",
+                "trailingIcon": "FaArrowRight"
+              },
+              "mobileMenuOpenLabel": "Open navigation menu",
+              "mobileMenuCloseLabel": "Close navigation menu"
+            }
+          }
+        },
+        "Hero": {
+          "variants": {
+            "RestaurantFoodHero1": {
+              "backgroundImage": "/banner/hero.webp",
+              "backgroundImageAlt": "Fresh restaurant ingredients and hand-drawn food illustrations on a dark background",
+              "customers": [
+                {
+                  "id": "hero-customer-1",
+                  "image": "/team/1.webp",
+                  "imageAlt": "Happy TASTY BITE customer"
+                },
+                {
+                  "id": "hero-customer-2",
+                  "image": "/team/2.webp",
+                  "imageAlt": "Happy restaurant guest"
+                },
+                {
+                  "id": "hero-customer-3",
+                  "image": "/team/3.webp",
+                  "imageAlt": "Satisfied TASTY BITE diner"
+                }
+              ],
+              "rating": 5,
+              "ratingLabel": "5 star customer rating",
+              "customerCountText": "10K+ Happy Customers",
+              "deliciousLabel": "Delicious",
+              "restaurantLabel": "Restaurant",
+              "orderLabel": "Order Now",
+              "orderUrl": "/services",
+              "titleFirst": "Fresh",
+              "titleHighlight": "Food",
+              "titleSecond": "Delivered Fast",
+              "description": "Hot, fresh and delicious meals delivered to your doorstep.",
+              "descriptionPrefix": "Good food,",
+              "descriptionHighlight": "anytime, anywhere."
+            }
+          }
+        },
+        "AboutUs": {
+          "variants": {
+            "RestaurantFoodAboutUs1": {
+              "subtitle": "About Us",
+              "titleFirst": "Where Every",
+              "titleRed": "Bite",
+              "titleSecond": "Tells A",
+              "titleGold": "Story",
+              "description": "We are passionate about serving great food made from carefully selected ingredients. Our restaurant is a place where people relax, connect, and enjoy perfectly crafted dishes in a warm and welcoming atmosphere.",
+              "imageMain": "/about/about1.webp",
+              "imageMainAlt": "Chef adding fresh herbs to a plated dish",
+              "imageSecondary": "/about/about2.webp",
+              "imageSecondaryAlt": "Chef carefully finishing a restaurant dish",
+              "centerImage": "/about/about_centre.webp",
+              "centerImageAlt": "TASTY BITE chef emblem",
+              "centerRingText": "EST 2020 • GREAT FOOD • GREAT FEEDBACK •",
+              "leftDecorationImage": "/about/about1_bottom.webp",
+              "leftDecorationImageAlt": "Decorative leaf illustration",
+              "rightDecorationImage": "/about/about2_top.webp",
+              "rightDecorationImageAlt": "Decorative tomato illustration"
+            }
+          }
+        },
+        "Chef": {
+          "variants": {
+            "RestaurantFoodChef1": {
+              "subtitle": "Our Chef",
+              "title": "Meet Our",
+              "highlightedTitle": "Chefs",
+              "description": "Our talented chefs bring experience, creativity, and a passion for great food to create unforgettable dining experiences.",
+              "backgroundImage": "/chef/chef_bg1.webp",
+              "buttonText": "View More",
+              "buttonUrl": "/chefs",
+              "chefs": [
+                {
+                  "id": "chef-rahul-mehta",
+                  "namePrefix": "Chef",
+                  "nameHighlight": "Rahul Mehta",
+                  "role": "Executive Chef",
+                  "description": "With over 10 years of culinary experience, Chef Rahul creates dishes that blend traditional flavors with a modern twist.",
+                  "image": "/chef/1.webp",
+                  "imageAlt": "Chef Rahul Mehta in the TASTY BITE kitchen",
+                  "socialLinks": [
+                    {
+                      "id": "rahul-facebook",
+                      "icon": "FaFacebookF",
+                      "label": "Chef Rahul Mehta on Facebook",
+                      "url": "https://www.facebook.com"
+                    },
+                    {
+                      "id": "rahul-instagram",
+                      "icon": "FaInstagram",
+                      "label": "Chef Rahul Mehta on Instagram",
+                      "url": "https://www.instagram.com"
+                    },
+                    {
+                      "id": "rahul-linkedin",
+                      "icon": "FaLinkedinIn",
+                      "label": "Chef Rahul Mehta on LinkedIn",
+                      "url": "https://www.linkedin.com"
+                    }
+                  ]
+                },
+                {
+                  "id": "chef-priya-sharma",
+                  "namePrefix": "Chef",
+                  "nameHighlight": "Priya Sharma",
+                  "role": "Sous Chef",
+                  "description": "Chef Priya is known for her creativity and attention to detail, crafting dishes that are both beautiful and delicious.",
+                  "image": "/chef/2.webp",
+                  "imageAlt": "Chef Priya Sharma in the TASTY BITE kitchen",
+                  "socialLinks": [
+                    {
+                      "id": "priya-facebook",
+                      "icon": "FaFacebookF",
+                      "label": "Chef Priya Sharma on Facebook",
+                      "url": "https://www.facebook.com"
+                    },
+                    {
+                      "id": "priya-instagram",
+                      "icon": "FaInstagram",
+                      "label": "Chef Priya Sharma on Instagram",
+                      "url": "https://www.instagram.com"
+                    },
+                    {
+                      "id": "priya-linkedin",
+                      "icon": "FaLinkedinIn",
+                      "label": "Chef Priya Sharma on LinkedIn",
+                      "url": "https://www.linkedin.com"
+                    }
+                  ]
+                },
+                {
+                  "id": "chef-arjun-kapoor",
+                  "namePrefix": "Chef",
+                  "nameHighlight": "Arjun Kapoor",
+                  "role": "Pastry Chef",
+                  "description": "Chef Arjun specializes in delectable desserts, combining classic techniques with innovative flavors.",
+                  "image": "/chef/3.webp",
+                  "imageAlt": "Chef Arjun Kapoor in the TASTY BITE kitchen",
+                  "socialLinks": [
+                    {
+                      "id": "arjun-facebook",
+                      "icon": "FaFacebookF",
+                      "label": "Chef Arjun Kapoor on Facebook",
+                      "url": "https://www.facebook.com"
+                    },
+                    {
+                      "id": "arjun-instagram",
+                      "icon": "FaInstagram",
+                      "label": "Chef Arjun Kapoor on Instagram",
+                      "url": "https://www.instagram.com"
+                    },
+                    {
+                      "id": "arjun-linkedin",
+                      "icon": "FaLinkedinIn",
+                      "label": "Chef Arjun Kapoor on LinkedIn",
+                      "url": "https://www.linkedin.com"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "ChefPage": {
+          "variants": {
+            "RestaurantFoodChefPage1": {
+              "subtitle": "Our Culinary Team",
+              "title": "Meet Our",
+              "highlightedTitle": "Chefs",
+              "description": "Our talented chefs bring experience, creativity, and a passion for great food to create unforgettable dining experiences.",
+              "backgroundImage": "/chef/chef_bg.webp",
+              "previousPageLabel": "Show previous chefs",
+              "nextPageLabel": "Show next chefs",
+              "socialLinks": [
+                { "id": "chef-page-facebook", "icon": "FaFacebookF", "label": "on Facebook", "url": "https://www.facebook.com" },
+                { "id": "chef-page-instagram", "icon": "FaInstagram", "label": "on Instagram", "url": "https://www.instagram.com" },
+                { "id": "chef-page-linkedin", "icon": "FaLinkedinIn", "label": "on LinkedIn", "url": "https://www.linkedin.com" }
+              ],
+              "pages": [
+                {
+                  "id": "chef-page-1",
+                  "label": "1",
+                  "chefs": [
+                    { "id": "chef-page-vikram-singh", "namePrefix": "Chef", "nameHighlight": "Vikram Singh", "role": "Executive Chef", "description": "With over 15 years of culinary experience, Chef Vikram specializes in authentic Indian and fusion cuisine.", "image": "/chef/1.webp", "imageAlt": "Chef Vikram Singh in the restaurant kitchen" },
+                    { "id": "chef-page-neha-gupta", "namePrefix": "Chef", "nameHighlight": "Neha Gupta", "role": "Sous Chef", "description": "Chef Neha is known for her creativity and attention to detail, crafting dishes that are both beautiful and delicious.", "image": "/chef/2.webp", "imageAlt": "Chef Neha Gupta in the restaurant kitchen" },
+                    { "id": "chef-page-amit-sharma", "namePrefix": "Chef", "nameHighlight": "Amit Sharma", "role": "Speciality Chef", "description": "Chef Amit specializes in North Indian cuisine, combining traditional recipes with modern techniques.", "image": "/chef/3.webp", "imageAlt": "Chef Amit Sharma in the restaurant kitchen" },
+                    { "id": "chef-page-rohit-mehta", "namePrefix": "Chef", "nameHighlight": "Rohit Mehta", "role": "Grill Chef", "description": "Chef Rohit brings a passion for grilling and tandoor specialties, creating bold and flavorful dishes.", "image": "/chef/4.webp", "imageAlt": "Chef Rohit Mehta in the restaurant kitchen" },
+                    { "id": "chef-page-pooja-verma", "namePrefix": "Chef", "nameHighlight": "Pooja Verma", "role": "Pastry Chef", "description": "Chef Pooja creates delightful desserts and pastries with a perfect balance of taste and presentation.", "image": "/chef/5.webp", "imageAlt": "Chef Pooja Verma in the restaurant kitchen" },
+                    { "id": "chef-page-rajesh-kumar", "namePrefix": "Chef", "nameHighlight": "Rajesh Kumar", "role": "Curry & Indian Cuisine Chef", "description": "Chef Rajesh has a deep love for traditional Indian flavors, preparing rich and aromatic curries.", "image": "/chef/6.webp", "imageAlt": "Chef Rajesh Kumar in the restaurant kitchen" },
+                    { "id": "chef-page-karan-malhotra", "namePrefix": "Chef", "nameHighlight": "Karan Malhotra", "role": "Appetizers Chef", "description": "Chef Karan is an expert in crafting appetizers that are full of flavor and perfect for every occasion.", "image": "/chef/7.webp", "imageAlt": "Chef Karan Malhotra in the restaurant kitchen" },
+                    { "id": "chef-page-sandeep-yadav", "namePrefix": "Chef", "nameHighlight": "Sandeep Yadav", "role": "Seafood Chef", "description": "Chef Sandeep brings fresh ingredients and innovative techniques to create delicious seafood dishes.", "image": "/chef/8.webp", "imageAlt": "Chef Sandeep Yadav in the restaurant kitchen" },
+                    { "id": "chef-page-anjali-tiwari", "namePrefix": "Chef", "nameHighlight": "Anjali Tiwari", "role": "Vegetarian Chef", "description": "Chef Anjali specializes in healthy and flavorful vegetarian dishes prepared with fresh local ingredients.", "image": "/chef/9.webp", "imageAlt": "Chef Anjali Tiwari in the restaurant kitchen" }
+                  ]
+                },
+                {
+                  "id": "chef-page-2",
+                  "label": "2",
+                  "chefs": [
+                    { "id": "chef-page-meera-joshi", "namePrefix": "Chef", "nameHighlight": "Meera Joshi", "role": "Bakery Chef", "description": "Chef Meera creates artisan breads and baked specialties with careful technique and premium ingredients.", "image": "/chef/10.webp", "imageAlt": "Chef Meera Joshi in the restaurant kitchen" },
+                    { "id": "chef-page-rahul-mehta", "namePrefix": "Chef", "nameHighlight": "Rahul Mehta", "role": "Executive Chef", "description": "Chef Rahul creates dishes that blend traditional flavors with a refined and modern culinary approach.", "image": "/chef/1.webp", "imageAlt": "Chef Rahul Mehta in the restaurant kitchen" },
+                    { "id": "chef-page-priya-sharma", "namePrefix": "Chef", "nameHighlight": "Priya Sharma", "role": "Sous Chef", "description": "Chef Priya combines creativity and precision to present memorable dishes filled with fresh flavor.", "image": "/chef/2.webp", "imageAlt": "Chef Priya Sharma in the restaurant kitchen" },
+                    { "id": "chef-page-arjun-kapoor", "namePrefix": "Chef", "nameHighlight": "Arjun Kapoor", "role": "Pastry Chef", "description": "Chef Arjun specializes in elegant desserts, combining classic techniques with innovative flavors.", "image": "/chef/3.webp", "imageAlt": "Chef Arjun Kapoor in the restaurant kitchen" },
+                    { "id": "chef-page-nisha-verma", "namePrefix": "Chef", "nameHighlight": "Nisha Verma", "role": "Continental Chef", "description": "Chef Nisha brings global inspiration to the kitchen through vibrant, balanced continental dishes.", "image": "/chef/4.webp", "imageAlt": "Chef Nisha Verma in the restaurant kitchen" },
+                    { "id": "chef-page-kabir-khanna", "namePrefix": "Chef", "nameHighlight": "Kabir Khanna", "role": "Tandoor Chef", "description": "Chef Kabir prepares smoky tandoor favorites with carefully balanced marinades and authentic spices.", "image": "/chef/5.webp", "imageAlt": "Chef Kabir Khanna in the restaurant kitchen" },
+                    { "id": "chef-page-ayesha-malik", "namePrefix": "Chef", "nameHighlight": "Ayesha Malik", "role": "Salad Chef", "description": "Chef Ayesha turns fresh produce into colorful salads with bright flavors and thoughtful presentation.", "image": "/chef/6.webp", "imageAlt": "Chef Ayesha Malik in the restaurant kitchen" },
+                    { "id": "chef-page-dev-arora", "namePrefix": "Chef", "nameHighlight": "Dev Arora", "role": "Pan Asian Chef", "description": "Chef Dev combines aromatic sauces and precise techniques to create exciting Pan Asian favorites.", "image": "/chef/7.webp", "imageAlt": "Chef Dev Arora in the restaurant kitchen" },
+                    { "id": "chef-page-riya-sen", "namePrefix": "Chef", "nameHighlight": "Riya Sen", "role": "Dessert Chef", "description": "Chef Riya creates indulgent desserts that balance beautiful presentation with unforgettable taste.", "image": "/chef/8.webp", "imageAlt": "Chef Riya Sen in the restaurant kitchen" }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "OurService": {
+          "variants": {
+            "RestaurantFoodOurService1": {
+              "items": [
+                {
+                  "id": "service-fresh-ingredients",
+                  "icon": "FaUtensils",
+                  "titleStart": "Fresh",
+                  "titleHighlight": "Ingredients",
+                  "description": "We use only the freshest and highest quality ingredients to create delicious and healthy meals for you.",
+                  "linkText": "Discover More",
+                  "url": "/menu"
+                },
+                {
+                  "id": "service-skilled-chefs",
+                  "icon": "TbChefHat",
+                  "titleStart": "Skilled",
+                  "titleHighlight": "Chefs",
+                  "description": "Our experienced and passionate chefs craft every dish with creativity, expertise, and love.",
+                  "linkText": "Discover More",
+                  "url": "/chefs"
+                },
+                {
+                  "id": "service-best-bar",
+                  "icon": "FaWineBottle",
+                  "titleStart": "Best",
+                  "titleHighlight": "Bar",
+                  "description": "Enjoy a wide selection of premium beverages, signature cocktails, and fine wines at our stylish bar.",
+                  "linkText": "Discover More",
+                  "url": "/menu"
+                },
+                {
+                  "id": "service-vegan-cuisine",
+                  "icon": "PiCoffee",
+                  "titleStart": "Vegan",
+                  "titleHighlight": "Cuisine",
+                  "description": "Explore our range of delicious plant-based dishes, made with fresh ingredients and bold flavors.",
+                  "linkText": "Discover More",
+                  "url": "/menu"
+                }
+              ]
+            }
+          }
+        },
+        "OurMenu": {
+          "variants": {
+            "RestaurantFoodOurMenu1": {
+              "subtitle": "Our Menu",
+              "title": "Explore Our",
+              "highlightedTitle": "Menu",
+              "description": "From mouth-watering starters to delightful desserts, we have something for everyone.",
+              "buttonText": "View Full Menu",
+              "buttonUrl": "/menu",
+              "items": [
+                {
+                  "id": "menu-breakfast",
+                  "title": "Breakfast",
+                  "image": "/menu/breakfast.webp",
+                  "imageAlt": "Pancakes topped with fresh berries"
+                },
+                {
+                  "id": "menu-starters",
+                  "title": "Starters",
+                  "image": "/menu/starters.webp",
+                  "imageAlt": "Spiced restaurant starters served in a black bowl"
+                },
+                {
+                  "id": "menu-main-course",
+                  "title": "Main Course",
+                  "image": "/menu/maincourse.webp",
+                  "imageAlt": "Grilled steak served with fresh vegetables"
+                },
+                {
+                  "id": "menu-desserts",
+                  "title": "Desserts",
+                  "image": "/menu/desserts.webp",
+                  "imageAlt": "Chocolate cake decorated with strawberries"
+                },
+                {
+                  "id": "menu-beverages",
+                  "title": "Beverages",
+                  "image": "/menu/bevergaes.webp",
+                  "imageAlt": "Colorful fresh restaurant beverages"
+                }
+              ]
+            }
+          }
+        },
+        "MenuPage": {
+          "variants": {
+            "RestaurantFoodMenuPage1": {
+              "subtitle": "Taste The Best",
+              "title": "Our Special",
+              "highlightedTitle": "Menu",
+              "description": "Explore our wide range of freshly prepared dishes made with premium ingredients and authentic flavors. From appetizers to desserts, there’s something for everyone.",
+              "categories": [
+                {
+                  "id": "starters",
+                  "title": "Starters",
+                  "navigationLabel": "Starters",
+                  "eyebrow": "Menu & Pricing",
+                  "image": "/menu/starters.webp",
+                  "imageAlt": "Crispy restaurant starters with dipping sauces",
+                  "dishes": [
+                    { "id": "starter-spring-rolls", "name": "Spring Rolls", "description": "Crispy rolls filled with vegetables, with dipping sauce.", "price": "₹160", "image": "/menu/starters.webp", "imageAlt": "Crispy spring rolls" },
+                    { "id": "starter-aloo-tikki", "name": "Aloo Tikki", "description": "Golden potato patties served with chutney.", "price": "₹120", "image": "/menu/starters.webp", "imageAlt": "Golden aloo tikki" },
+                    { "id": "starter-paneer-tikka", "name": "Paneer Tikka", "description": "Grilled paneer cubes, spiced to perfection.", "price": "₹260", "image": "/menu/starters.webp", "imageAlt": "Grilled paneer tikka" },
+                    { "id": "starter-hara-kebab", "name": "Hara Kebab", "description": "Green vegetable and herb kebabs, grilled to perfection.", "price": "₹200", "image": "/menu/starters.webp", "imageAlt": "Grilled hara kebab" },
+                    { "id": "starter-chilli-mushrooms", "name": "Chilli Mushrooms", "description": "Spicy, crispy mushrooms with a tangy twist.", "price": "₹180", "image": "/menu/starters.webp", "imageAlt": "Spicy chilli mushrooms" },
+                    { "id": "starter-veg-pakoras", "name": "Veg Pakoras", "description": "Crispy vegetable fritters served with a dip.", "price": "₹150", "image": "/menu/starters.webp", "imageAlt": "Crispy vegetable pakoras" }
+                  ]
+                },
+                {
+                  "id": "vegetables",
+                  "title": "Vegetables",
+                  "navigationLabel": "Vegetables",
+                  "eyebrow": "Menu & Pricing",
+                  "image": "/menu/maincourse.webp",
+                  "imageAlt": "Fresh vegetable main course",
+                  "dishes": [
+                    { "id": "vegetable-veg-biryani", "name": "Veg Biryani", "description": "Aromatic basmati rice cooked with fresh vegetables.", "price": "₹240", "image": "/menu/maincourse.webp", "imageAlt": "Aromatic vegetable biryani" },
+                    { "id": "vegetable-baingan-bharta", "name": "Baingan Bharta", "description": "Smoky mashed eggplant cooked with fresh herbs.", "price": "₹220", "image": "/menu/maincourse.webp", "imageAlt": "Smoky baingan bharta" },
+                    { "id": "vegetable-paneer-butter-masala", "name": "Paneer Butter Masala", "description": "Cottage cheese in a rich and creamy tomato gravy.", "price": "₹280", "image": "/menu/maincourse.webp", "imageAlt": "Creamy paneer butter masala" },
+                    { "id": "vegetable-palak-paneer", "name": "Palak Paneer", "description": "Cottage cheese in a rich spinach gravy with aromatic spices.", "price": "₹260", "image": "/menu/maincourse.webp", "imageAlt": "Rich palak paneer" },
+                    { "id": "vegetable-aloo-gobi", "name": "Aloo Gobi", "description": "Spicy mix of potatoes and cauliflower with Indian spices.", "price": "₹180", "image": "/menu/maincourse.webp", "imageAlt": "Spiced aloo gobi" },
+                    { "id": "vegetable-veg-curry", "name": "Veg Curry", "description": "Seasonal vegetables in a flavorful spiced gravy.", "price": "₹200", "image": "/menu/maincourse.webp", "imageAlt": "Seasonal vegetable curry" }
+                  ]
+                },
+                {
+                  "id": "seafood",
+                  "title": "Seafood",
+                  "navigationLabel": "Seafood",
+                  "eyebrow": "Menu & Pricing",
+                  "image": "/menu/seafood.webp",
+                  "imageAlt": "Fresh seafood selection",
+                  "dishes": [
+                    { "id": "seafood-grilled-salmon", "name": "Grilled Salmon", "description": "Fresh salmon grilled with herbs and lemon butter.", "price": "₹420", "image": "/menu/seafood.webp", "imageAlt": "Herb grilled salmon" },
+                    { "id": "seafood-calamari-rings", "name": "Calamari Rings", "description": "Crispy fried calamari served with tartar sauce.", "price": "₹360", "image": "/menu/seafood.webp", "imageAlt": "Crispy calamari rings" },
+                    { "id": "seafood-shrimp-masala", "name": "Shrimp Masala", "description": "Prawns cooked in a rich spicy tomato gravy.", "price": "₹380", "image": "/menu/seafood.webp", "imageAlt": "Spicy shrimp masala" },
+                    { "id": "seafood-lobster-roll", "name": "Lobster Roll", "description": "Succulent lobster in a buttery roll with fresh herbs.", "price": "₹450", "image": "/menu/seafood.webp", "imageAlt": "Buttery lobster roll" },
+                    { "id": "seafood-fish-tacos", "name": "Fish Tacos", "description": "Crispy fish with fresh veggies and special sauce.", "price": "₹320", "image": "/menu/seafood.webp", "imageAlt": "Crispy fish tacos" },
+                    { "id": "seafood-fish-curry", "name": "Fish Curry", "description": "Fresh fish cooked in traditional spices and coconut gravy.", "price": "₹340", "image": "/menu/seafood.webp", "imageAlt": "Traditional fish curry" }
+                  ]
+                },
+                {
+                  "id": "desserts",
+                  "title": "Desserts",
+                  "navigationLabel": "Desserts",
+                  "eyebrow": "Menu & Pricing",
+                  "image": "/menu/desserts.webp",
+                  "imageAlt": "Chocolate dessert with fresh berries",
+                  "dishes": [
+                    { "id": "dessert-choco-lava-cake", "name": "Choco Lava Cake", "description": "Warm chocolate cake with a molten center.", "price": "₹220", "image": "/menu/desserts.webp", "imageAlt": "Warm choco lava cake" },
+                    { "id": "dessert-gulab-jamun", "name": "Gulab Jamun", "description": "Soft, syrup-soaked Indian sweet dumplings.", "price": "₹160", "image": "/menu/desserts.webp", "imageAlt": "Syrup-soaked gulab jamun" },
+                    { "id": "dessert-tiramisu", "name": "Tiramisu", "description": "Classic Italian dessert with coffee and mascarpone.", "price": "₹240", "image": "/menu/desserts.webp", "imageAlt": "Classic tiramisu" },
+                    { "id": "dessert-vanilla-panna-cotta", "name": "Vanilla Panna Cotta", "description": "Creamy dessert with a hint of vanilla.", "price": "₹190", "image": "/menu/desserts.webp", "imageAlt": "Creamy vanilla panna cotta" },
+                    { "id": "dessert-berry-cake", "name": "Berry Cake", "description": "Soft cheesecake topped with fresh berries.", "price": "₹200", "image": "/menu/desserts.webp", "imageAlt": "Fresh berry cake" },
+                    { "id": "dessert-apple-pie", "name": "Apple Pie", "description": "Warm spiced apple pie with a flaky crust.", "price": "₹210", "image": "/menu/desserts.webp", "imageAlt": "Warm apple pie" }
+                  ]
+                },
+                {
+                  "id": "beverages",
+                  "title": "Beverages",
+                  "navigationLabel": "Beverages",
+                  "eyebrow": "Menu & Pricing",
+                  "image": "/menu/bevergaes.webp",
+                  "imageAlt": "Colorful fresh beverages",
+                  "dishes": [
+                    { "id": "beverage-mango-lassi", "name": "Mango Lassi", "description": "Refreshing yogurt-based mango drink.", "price": "₹120", "image": "/menu/bevergaes.webp", "imageAlt": "Refreshing mango lassi" },
+                    { "id": "beverage-masala-chai", "name": "Masala Chai", "description": "Traditional Indian tea with aromatic spices.", "price": "₹100", "image": "/menu/bevergaes.webp", "imageAlt": "Traditional masala chai" },
+                    { "id": "beverage-iced-coffee", "name": "Iced Coffee", "description": "Chilled coffee with a smooth, rich flavor.", "price": "₹150", "image": "/menu/bevergaes.webp", "imageAlt": "Chilled iced coffee" },
+                    { "id": "beverage-mint-mojito", "name": "Mint Mojito", "description": "Cool and refreshing drink with mint and lime.", "price": "₹140", "image": "/menu/bevergaes.webp", "imageAlt": "Fresh mint mojito" },
+                    { "id": "beverage-lemonade", "name": "Lemonade", "description": "Sweet and tangy homemade lemonade.", "price": "₹110", "image": "/menu/bevergaes.webp", "imageAlt": "Homemade lemonade" },
+                    { "id": "beverage-coconut-water", "name": "Coconut Water", "description": "Naturally refreshing and hydrating coconut water.", "price": "₹120", "image": "/menu/bevergaes.webp", "imageAlt": "Refreshing coconut water" }
+                  ]
+                },
+                {
+                  "id": "salads-soups",
+                  "title": "Salads & Soups",
+                  "navigationLabel": "Salads & Soups",
+                  "eyebrow": "Menu & Pricing",
+                  "image": "/menu/maincourse.webp",
+                  "imageAlt": "Fresh salad and soup selection",
+                  "dishes": [
+                    { "id": "salad-greek-salad", "name": "Greek Salad", "description": "Cucumber, olives, feta cheese and fresh greens.", "price": "₹180", "image": "/menu/maincourse.webp", "imageAlt": "Fresh Greek salad" },
+                    { "id": "soup-minestrone", "name": "Minestrone Soup", "description": "Hearty vegetable soup with pasta and beans.", "price": "₹140", "image": "/menu/maincourse.webp", "imageAlt": "Hearty minestrone soup" },
+                    { "id": "salad-caesar", "name": "Caesar Salad", "description": "Crisp lettuce, croutons, parmesan cheese and creamy dressing.", "price": "₹200", "image": "/menu/maincourse.webp", "imageAlt": "Crisp Caesar salad" },
+                    { "id": "salad-chicken", "name": "Chicken Salad", "description": "Grilled chicken, mixed greens, avocado and tangy dressing.", "price": "₹220", "image": "/menu/maincourse.webp", "imageAlt": "Grilled chicken salad" },
+                    { "id": "soup-tomato", "name": "Tomato Soup", "description": "Velvety tomato soup with a hint of basil.", "price": "₹120", "image": "/menu/maincourse.webp", "imageAlt": "Velvety tomato soup" },
+                    { "id": "soup-sweet-corn", "name": "Sweet Corn Soup", "description": "Warm and comforting soup with mild spices.", "price": "₹120", "image": "/menu/maincourse.webp", "imageAlt": "Warm sweet corn soup" }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "Gallery": {
+          "variants": {
+            "RestaurantFoodGallery1": {
+              "subtitle": "Our Gallery",
+              "title": "A Feast For",
+              "highlightedTitle": "Your Eyes",
+              "description": "Take a look at our delicious dishes, cozy ambiance, and memorable moments.",
+              "curveEnabled": true,
+              "previousLabel": "Show previous gallery images",
+              "nextLabel": "Show next gallery images",
+              "buttonText": "View More",
+              "buttonUrl": "/gallery",
+              "items": [
+                {
+                  "id": "gallery-dish-1",
+                  "image": "/gallery/1.webp",
+                  "imageAlt": "Featured TASTY BITE dish"
+                },
+                {
+                  "id": "gallery-dish-2",
+                  "image": "/gallery/2.webp",
+                  "imageAlt": "Fresh burger and fries"
+                },
+                {
+                  "id": "gallery-dish-3",
+                  "image": "/gallery/3.webp",
+                  "imageAlt": "Grilled restaurant main course"
+                },
+                {
+                  "id": "gallery-dish-4",
+                  "image": "/gallery/4.webp",
+                  "imageAlt": "Freshly prepared pasta dish"
+                },
+                {
+                  "id": "gallery-dish-5",
+                  "image": "/gallery/5.webp",
+                  "imageAlt": "Chocolate dessert with berries"
+                },
+                {
+                  "id": "gallery-dish-6",
+                  "image": "/gallery/6.webp",
+                  "imageAlt": "Refreshing fruit beverage"
+                },
+                {
+                  "id": "gallery-dish-7",
+                  "image": "/gallery/7.webp",
+                  "imageAlt": "Fresh restaurant pizza"
+                },
+                {
+                  "id": "gallery-dish-8",
+                  "image": "/gallery/8.webp",
+                  "imageAlt": "Colorful chef special dish"
+                },
+                {
+                  "id": "gallery-dish-9",
+                  "image": "/gallery/9.webp",
+                  "imageAlt": "TASTY BITE signature meal"
+                }
+              ]
+            }
+          }
+        },
+        "GalleryPage": {
+          "variants": {
+            "RestaurantFoodGalleryPage1": {
+              "subtitle": "Our Gallery",
+              "title": "A Feast For",
+              "highlightedTitle": "Your Eyes",
+              "description": "Take a look at our delicious dishes, cozy ambiance, and memorable moments.",
+              "closeLabel": "Close gallery image",
+              "previousLabel": "Show previous gallery image",
+              "nextLabel": "Show next gallery image",
+              "items": [
+                { "id": "gallery-page-1", "image": "/gallery/1.webp", "imageAlt": "Featured TASTY BITE dish" },
+                { "id": "gallery-page-2", "image": "/gallery/2.webp", "imageAlt": "Fresh burger and fries" },
+                { "id": "gallery-page-3", "image": "/gallery/3.webp", "imageAlt": "Grilled restaurant main course" },
+                { "id": "gallery-page-4", "image": "/gallery/4.webp", "imageAlt": "Freshly prepared pasta dish" },
+                { "id": "gallery-page-5", "image": "/gallery/5.webp", "imageAlt": "Chocolate dessert with berries" },
+                { "id": "gallery-page-6", "image": "/gallery/6.webp", "imageAlt": "Refreshing fruit beverage" },
+                { "id": "gallery-page-7", "image": "/gallery/7.webp", "imageAlt": "Fresh restaurant pizza" },
+                { "id": "gallery-page-8", "image": "/gallery/8.webp", "imageAlt": "Colorful chef special dish" },
+                { "id": "gallery-page-9", "image": "/gallery/9.webp", "imageAlt": "TASTY BITE signature meal" }
+              ]
+            }
+          }
+        },
+        "Services": {
+          "variants": {
+            "RestaurantFoodServices1": {
+              "subtitle": "Our Services",
+              "title1": "A Complete Range of",
+              "title2": "Investment Services",
+              "description": "From equities to derivatives, our expert-driven solutions are designed to help you trade, invest and grow with confidence.",
+              "linkText": "Learn More",
+              "services": [
+                {
+                  "id": "service-equity-trading",
+                  "title": "Equity Trading",
+                  "description": "Access to NSE & BSE with advanced trading tools.",
+                  "image": "/service/1.webp",
+                  "imageAlt": "Equity market chart analysis",
+                  "icon": "FaChartLine",
+                  "url": "/services/equity-trading"
+                },
+                {
+                  "id": "service-mutual-funds",
+                  "title": "Mutual Funds",
+                  "description": "Invest in top-performing funds for long-term growth.",
+                  "image": "/service/2.webp",
+                  "imageAlt": "Growing investment represented by coins and a plant",
+                  "icon": "FaHandHoldingUsd",
+                  "url": "/services/mutual-funds"
+                },
+                {
+                  "id": "service-ipo-investments",
+                  "title": "IPO Investments",
+                  "description": "Get early access to promising opportunities.",
+                  "image": "/service/3.webp",
+                  "imageAlt": "IPO investment opportunity",
+                  "icon": "FaBuilding",
+                  "url": "/services/ipo-investments"
+                },
+                {
+                  "id": "service-derivatives",
+                  "title": "Derivatives",
+                  "description": "Trade F&O with expert research and insights.",
+                  "image": "/service/4.webp",
+                  "imageAlt": "Derivatives market chart analysis",
+                  "icon": "FaChartBar",
+                  "url": "/services/derivatives"
+                },
+                {
+                  "id": "service-research-advisory",
+                  "title": "Research & Advisory",
+                  "description": "Data-driven advice to make informed decisions.",
+                  "image": "/service/5.webp",
+                  "imageAlt": "Investment research and financial advisory report",
+                  "icon": "FaSearchDollar",
+                  "url": "/services/research-advisory"
+                }
+              ]
+            }
+          }
+        },
+        "ServicesGrid": {
+          "variants": {
+            "RestaurantFoodServicesGrid1": {
+              "subtitle": "Our Services",
+              "title1": "A Complete Range of",
+              "title2": "Investment Services",
+              "description": "From equities to derivatives, our expert-driven solutions are designed to help you trade, invest and grow with confidence.",
+              "linkText": "Learn More",
+              "services": [
+                {
+                  "id": "service-grid-equity-trading",
+                  "title": "Equity Trading",
+                  "description": "Access to NSE & BSE with advanced trading tools.",
+                  "image": "/service/1.webp",
+                  "imageAlt": "Equity market chart analysis",
+                  "icon": "FaChartLine",
+                  "url": "/services/equity-trading"
+                },
+                {
+                  "id": "service-grid-mutual-funds",
+                  "title": "Mutual Funds",
+                  "description": "Invest in top-performing funds for long-term growth.",
+                  "image": "/service/2.webp",
+                  "imageAlt": "Growing investment represented by coins and a plant",
+                  "icon": "FaHandHoldingUsd",
+                  "url": "/services/mutual-funds"
+                },
+                {
+                  "id": "service-grid-ipo-investments",
+                  "title": "IPO Investments",
+                  "description": "Get early access to promising opportunities.",
+                  "image": "/service/3.webp",
+                  "imageAlt": "IPO investment opportunity",
+                  "icon": "FaBuilding",
+                  "url": "/services/ipo-investments"
+                },
+                {
+                  "id": "service-grid-derivatives",
+                  "title": "Derivatives",
+                  "description": "Trade F&O with expert research and insights.",
+                  "image": "/service/4.webp",
+                  "imageAlt": "Derivatives market chart analysis",
+                  "icon": "FaChartBar",
+                  "url": "/services/derivatives"
+                },
+                {
+                  "id": "service-grid-research-advisory",
+                  "title": "Research & Advisory",
+                  "description": "Data-driven advice to make informed decisions.",
+                  "image": "/service/5.webp",
+                  "imageAlt": "Investment research and financial advisory report",
+                  "icon": "FaSearchDollar",
+                  "url": "/services/research-advisory"
+                },
+                {
+                  "id": "service-grid-portfolio-management",
+                  "title": "Portfolio Management",
+                  "description": "Customized strategies to help you grow and protect wealth.",
+                  "image": "/service/6.webp",
+                  "imageAlt": "Portfolio management with financial growth chart and coins",
+                  "icon": "FaCog",
+                  "url": "/services/portfolio-management"
+                }
+              ]
+            }
+          }
+        },
+        "ServiceDetails": {
+          "variants": {
+            "equity-trading": {
+              "id": "equity-trading",
+              "breadcrumbTitle": "Equity Trading",
+              "breadcrumbLabel": "Equity Trading",
+              "overviewLabel": "Overview",
+              "title1": "Trade Smarter",
+              "title2": "With Expert Guidance",
+              "imageMain": "/service/1.webp",
+              "imageMainAlt": "Equity trader studying a live market chart",
+              "overviewText": [
+                {
+                  "id": "equity-overview-1",
+                  "text": "Our Equity Trading services are designed to help you participate in the stock market with confidence. We provide access to NSE and BSE, advanced trading platforms, real-time market data and expert research support so you can take informed decisions."
+                },
+                {
+                  "id": "equity-overview-2",
+                  "text": "Whether you are a beginner or an experienced trader, our team provides personal guidance, market insights and strategic support to help you achieve your financial goals."
+                }
+              ],
+              "featuresLabel": "Key Features",
+              "featuresTitle1": "Why Choose Our",
+              "featuresTitle2": "Equity Trading Services?",
+              "features": [
+                {
+                  "id": "equity-feature-access",
+                  "icon": "FaChartLine",
+                  "title": "NSE & BSE Access",
+                  "description": "Trade on India's leading stock exchanges with reliable platforms."
+                },
+                {
+                  "id": "equity-feature-tools",
+                  "icon": "FaLaptop",
+                  "title": "Advanced Trading Tools",
+                  "description": "Get access to real-time charts, analysis tools and market data."
+                },
+                {
+                  "id": "equity-feature-research",
+                  "icon": "FaSearchDollar",
+                  "title": "Expert Research",
+                  "description": "In-depth market research and stock recommendations to support your trades."
+                },
+                {
+                  "id": "equity-feature-guidance",
+                  "icon": "FaUserTie",
+                  "title": "Personalized Guidance",
+                  "description": "Get expert advice tailored to your investment goals and risk profile."
+                }
+              ],
+              "benefitsLabel": "Benefits",
+              "benefitsTitle1": "Grow Your Wealth",
+              "benefitsTitle2": "With Confidence",
+              "benefitsImage": "/service/2.webp",
+              "benefitsImageAlt": "Investment growth represented by coins and a rising chart",
+              "benefits": [
+                { "id": "equity-benefit-1", "text": "Access to real-time market data" },
+                { "id": "equity-benefit-2", "text": "Expert research and market insights" },
+                { "id": "equity-benefit-3", "text": "Advanced trading platforms and tools" },
+                { "id": "equity-benefit-4", "text": "Personalized investment guidance" },
+                { "id": "equity-benefit-5", "text": "Transparent and secure trading process" },
+                { "id": "equity-benefit-6", "text": "Suitable for both beginners and experienced traders" }
+              ]
+            },
+            "mutual-funds": {
+              "id": "mutual-funds",
+              "breadcrumbTitle": "Mutual Funds",
+              "breadcrumbLabel": "Mutual Funds",
+              "overviewLabel": "Overview",
+              "title1": "Build Long-Term Wealth",
+              "title2": "With Mutual Funds",
+              "imageMain": "/service/2.webp",
+              "imageMainAlt": "Coins and a growing plant representing mutual fund growth",
+              "overviewText": [
+                {
+                  "id": "mutual-overview-1",
+                  "text": "Our Mutual Fund services help you invest in professionally managed portfolios aligned with your goals, investment horizon and risk profile. We simplify fund selection and provide clear insights for every decision."
+                },
+                {
+                  "id": "mutual-overview-2",
+                  "text": "From systematic investment plans to goal-based portfolios, our experts support you in building disciplined investment habits and pursuing sustainable long-term growth."
+                }
+              ],
+              "featuresLabel": "Key Features",
+              "featuresTitle1": "Why Choose Our",
+              "featuresTitle2": "Mutual Fund Services?",
+              "features": [
+                { "id": "mutual-feature-plans", "icon": "FaHandHoldingUsd", "title": "Goal-Based Plans", "description": "Choose funds aligned with your financial goals and investment horizon." },
+                { "id": "mutual-feature-sip", "icon": "FaChartLine", "title": "Flexible SIP Options", "description": "Invest regularly with convenient and disciplined contribution plans." },
+                { "id": "mutual-feature-research", "icon": "FaSearchDollar", "title": "Fund Research", "description": "Compare performance, risk and portfolio quality with expert insights." },
+                { "id": "mutual-feature-support", "icon": "FaUserTie", "title": "Expert Support", "description": "Receive guidance for selecting and reviewing suitable mutual funds." }
+              ],
+              "benefitsLabel": "Benefits",
+              "benefitsTitle1": "Invest Consistently",
+              "benefitsTitle2": "For Your Future",
+              "benefitsImage": "/service/2.webp",
+              "benefitsImageAlt": "Investment growth represented by coins and a rising chart",
+              "benefits": [
+                { "id": "mutual-benefit-1", "text": "Professionally managed investment portfolios" },
+                { "id": "mutual-benefit-2", "text": "Diversification across multiple market opportunities" },
+                { "id": "mutual-benefit-3", "text": "Flexible lump-sum and SIP investment choices" },
+                { "id": "mutual-benefit-4", "text": "Solutions for short-term and long-term goals" },
+                { "id": "mutual-benefit-5", "text": "Regular portfolio review and expert guidance" },
+                { "id": "mutual-benefit-6", "text": "Simple and transparent investment experience" }
+              ]
+            },
+            "ipo-investments": {
+              "id": "ipo-investments",
+              "breadcrumbTitle": "IPO Investments",
+              "breadcrumbLabel": "IPO Investments",
+              "overviewLabel": "Overview",
+              "title1": "Access New Opportunities",
+              "title2": "With IPO Investments",
+              "imageMain": "/service/3.webp",
+              "imageMainAlt": "IPO blocks displayed against a financial market chart",
+              "overviewText": [
+                {
+                  "id": "ipo-overview-1",
+                  "text": "Our IPO Investment services help you discover promising companies entering the public market. We provide issue details, company insights and application support to make the process clear and convenient."
+                },
+                {
+                  "id": "ipo-overview-2",
+                  "text": "With timely research and straightforward guidance, you can evaluate new listings carefully and participate in opportunities that fit your investment strategy."
+                }
+              ],
+              "featuresLabel": "Key Features",
+              "featuresTitle1": "Why Choose Our",
+              "featuresTitle2": "IPO Investment Services?",
+              "features": [
+                { "id": "ipo-feature-access", "icon": "FaBuilding", "title": "Early Access", "description": "Explore upcoming public issues and new market opportunities." },
+                { "id": "ipo-feature-research", "icon": "FaSearchDollar", "title": "Company Research", "description": "Review business fundamentals, risks and issue highlights." },
+                { "id": "ipo-feature-application", "icon": "FaLaptop", "title": "Simple Applications", "description": "Apply through a clear and convenient digital process." },
+                { "id": "ipo-feature-guidance", "icon": "FaUserTie", "title": "Expert Guidance", "description": "Understand issue details before making investment decisions." }
+              ],
+              "benefitsLabel": "Benefits",
+              "benefitsTitle1": "Discover Growth",
+              "benefitsTitle2": "At an Early Stage",
+              "benefitsImage": "/service/2.webp",
+              "benefitsImageAlt": "Investment growth represented by coins and a rising chart",
+              "benefits": [
+                { "id": "ipo-benefit-1", "text": "Timely updates on upcoming IPO opportunities" },
+                { "id": "ipo-benefit-2", "text": "Clear company and issue-level research" },
+                { "id": "ipo-benefit-3", "text": "Convenient online application support" },
+                { "id": "ipo-benefit-4", "text": "Guidance on pricing, risks and prospects" },
+                { "id": "ipo-benefit-5", "text": "Transparent application tracking process" },
+                { "id": "ipo-benefit-6", "text": "Suitable opportunities for diversified portfolios" }
+              ]
+            },
+            "derivatives": {
+              "id": "derivatives",
+              "breadcrumbTitle": "Derivatives",
+              "breadcrumbLabel": "Derivatives",
+              "overviewLabel": "Overview",
+              "title1": "Trade Strategically",
+              "title2": "With Derivatives",
+              "imageMain": "/service/4.webp",
+              "imageMainAlt": "Trader analysing a derivatives market chart",
+              "overviewText": [
+                {
+                  "id": "derivatives-overview-1",
+                  "text": "Our Derivatives services provide access to futures and options with advanced tools, research-backed insights and disciplined risk management support. We help traders understand market movement and strategy selection."
+                },
+                {
+                  "id": "derivatives-overview-2",
+                  "text": "Whether you use derivatives for hedging or active trading, our experts provide practical guidance to help you approach every position with greater clarity and control."
+                }
+              ],
+              "featuresLabel": "Key Features",
+              "featuresTitle1": "Why Choose Our",
+              "featuresTitle2": "Derivatives Services?",
+              "features": [
+                { "id": "derivatives-feature-market", "icon": "FaChartLine", "title": "F&O Market Access", "description": "Trade futures and options through reliable market platforms." },
+                { "id": "derivatives-feature-tools", "icon": "FaLaptop", "title": "Strategy Tools", "description": "Use live charts, option data and analytical trading tools." },
+                { "id": "derivatives-feature-risk", "icon": "FaShieldAlt", "title": "Risk Management", "description": "Apply structured controls for disciplined position management." },
+                { "id": "derivatives-feature-guidance", "icon": "FaUserTie", "title": "Trading Guidance", "description": "Receive research-backed insights for informed strategies." }
+              ],
+              "benefitsLabel": "Benefits",
+              "benefitsTitle1": "Manage Opportunity",
+              "benefitsTitle2": "And Risk",
+              "benefitsImage": "/service/2.webp",
+              "benefitsImageAlt": "Investment growth represented by coins and a rising chart",
+              "benefits": [
+                { "id": "derivatives-benefit-1", "text": "Access to futures and options markets" },
+                { "id": "derivatives-benefit-2", "text": "Tools for hedging and strategic trading" },
+                { "id": "derivatives-benefit-3", "text": "Real-time charts and market information" },
+                { "id": "derivatives-benefit-4", "text": "Research-backed trade perspectives" },
+                { "id": "derivatives-benefit-5", "text": "Structured risk management support" },
+                { "id": "derivatives-benefit-6", "text": "Guidance for experienced market participants" }
+              ]
+            },
+            "research-advisory": {
+              "id": "research-advisory",
+              "breadcrumbTitle": "Research & Advisory",
+              "breadcrumbLabel": "Research & Advisory",
+              "overviewLabel": "Overview",
+              "title1": "Make Informed Decisions",
+              "title2": "With Expert Research",
+              "imageMain": "/service/5.webp",
+              "imageMainAlt": "Financial reports being examined through a magnifying glass",
+              "overviewText": [
+                {
+                  "id": "research-overview-1",
+                  "text": "Our Research and Advisory services turn market information into practical insights. We study companies, sectors and market trends to help you understand opportunities and risks before you invest."
+                },
+                {
+                  "id": "research-overview-2",
+                  "text": "Our recommendations are supported by structured analysis and personalized guidance, helping you make decisions aligned with your goals and investment approach."
+                }
+              ],
+              "featuresLabel": "Key Features",
+              "featuresTitle1": "Why Choose Our",
+              "featuresTitle2": "Research Services?",
+              "features": [
+                { "id": "research-feature-analysis", "icon": "FaSearchDollar", "title": "Detailed Analysis", "description": "Understand companies, sectors and market trends in depth." },
+                { "id": "research-feature-updates", "icon": "FaChartLine", "title": "Market Updates", "description": "Stay informed with timely data and market developments." },
+                { "id": "research-feature-reports", "icon": "FaLaptop", "title": "Actionable Reports", "description": "Use clear research reports to support investment decisions." },
+                { "id": "research-feature-advice", "icon": "FaUserTie", "title": "Personal Advisory", "description": "Receive guidance aligned with your goals and risk profile." }
+              ],
+              "benefitsLabel": "Benefits",
+              "benefitsTitle1": "Invest With",
+              "benefitsTitle2": "Better Clarity",
+              "benefitsImage": "/service/2.webp",
+              "benefitsImageAlt": "Investment growth represented by coins and a rising chart",
+              "benefits": [
+                { "id": "research-benefit-1", "text": "Research-backed investment perspectives" },
+                { "id": "research-benefit-2", "text": "Regular company and sector analysis" },
+                { "id": "research-benefit-3", "text": "Timely market updates and insights" },
+                { "id": "research-benefit-4", "text": "Clear assessment of potential opportunities" },
+                { "id": "research-benefit-5", "text": "Personalized advisory support" },
+                { "id": "research-benefit-6", "text": "More disciplined investment decision-making" }
+              ]
+            },
+            "portfolio-management": {
+              "id": "portfolio-management",
+              "breadcrumbTitle": "Portfolio Management",
+              "breadcrumbLabel": "Portfolio Management",
+              "overviewLabel": "Overview",
+              "title1": "Grow and Protect Wealth",
+              "title2": "With Portfolio Management",
+              "imageMain": "/service/6.webp",
+              "imageMainAlt": "Portfolio planning with financial chart and growing coins",
+              "overviewText": [
+                {
+                  "id": "portfolio-overview-1",
+                  "text": "Our Portfolio Management services combine goal planning, asset allocation and regular monitoring to create a structured investment approach. Every portfolio is designed around your needs and risk comfort."
+                },
+                {
+                  "id": "portfolio-overview-2",
+                  "text": "We review performance, rebalance investments and provide clear reporting so your portfolio can remain aligned with changing markets and long-term financial goals."
+                }
+              ],
+              "featuresLabel": "Key Features",
+              "featuresTitle1": "Why Choose Our",
+              "featuresTitle2": "Portfolio Services?",
+              "features": [
+                { "id": "portfolio-feature-plan", "icon": "FaHandHoldingUsd", "title": "Custom Strategy", "description": "Build an investment strategy aligned with your specific goals." },
+                { "id": "portfolio-feature-allocation", "icon": "FaChartLine", "title": "Asset Allocation", "description": "Balance investments across suitable asset classes and themes." },
+                { "id": "portfolio-feature-risk", "icon": "FaShieldAlt", "title": "Risk Oversight", "description": "Monitor portfolio risk through a disciplined review process." },
+                { "id": "portfolio-feature-review", "icon": "FaCog", "title": "Regular Rebalancing", "description": "Adjust portfolio allocation as goals and markets evolve." }
+              ],
+              "benefitsLabel": "Benefits",
+              "benefitsTitle1": "Build Wealth",
+              "benefitsTitle2": "With Discipline",
+              "benefitsImage": "/service/2.webp",
+              "benefitsImageAlt": "Investment growth represented by coins and a rising chart",
+              "benefits": [
+                { "id": "portfolio-benefit-1", "text": "Personalized portfolio construction" },
+                { "id": "portfolio-benefit-2", "text": "Strategic diversification across investments" },
+                { "id": "portfolio-benefit-3", "text": "Ongoing performance monitoring" },
+                { "id": "portfolio-benefit-4", "text": "Regular review and portfolio rebalancing" },
+                { "id": "portfolio-benefit-5", "text": "Transparent reports and expert communication" },
+                { "id": "portfolio-benefit-6", "text": "Long-term focus on growth and capital protection" }
+              ]
+            }
+          }
+        },
+        "ServiceDetail": {
+          "variants": {
+            "stock-broker-installation": {
+              "id": "stock-broker-installation",
+              "subtitle": "Our Service",
+              "title1": "Stock Broker",
+              "title2": "Installation",
+              "description": "We provide professional stock broker installation services for residential and commercial properties, ensuring long-lasting performance, leak-free connections and complete peace of mind.",
+              "imageMain": "/service/1.jpg",
+              "features": [
+                {
+                  "id": "f1",
+                  "icon": "FiShield",
+                  "title": "Durable Installation"
+                },
+                {
+                  "id": "f2",
+                  "icon": "FiSettings",
+                  "title": "Quality Materials"
+                },
+                {
+                  "id": "f3",
+                  "icon": "FiClock",
+                  "title": "On-Time Completion"
+                },
+                {
+                  "id": "f4",
+                  "icon": "FiUsers",
+                  "title": "Experienced Technicians"
+                }
+              ],
+              "overviewTitle": "Service Overview",
+              "overviewText": [
+                "Our pipe installation services are designed to meet the needs of modern homes and businesses. Whether you are constructing a new property or upgrading your existing stock broker system, our skilled team ensures safe, efficient and high-quality installations using premium-grade materials.",
+                "From water supply lines to drainage pipes, we handle every aspect with precision and care. Our focus is on delivering reliable solutions that prevent future issues and keep your stock broker system running smoothly for years to come."
+              ],
+              "overviewImage": "/service/2.jpg",
+              "processTitle": "Our Process",
+              "processSteps": [
+                {
+                  "id": "p1",
+                  "number": "01",
+                  "title": "Site Inspection",
+                  "description": "We assess your stock broker requirements and recommend the best solution."
+                },
+                {
+                  "id": "p2",
+                  "number": "02",
+                  "title": "Planning & Design",
+                  "description": "Detailed planning to ensure a safe and efficient installation process."
+                },
+                {
+                  "id": "p3",
+                  "number": "03",
+                  "title": "Installation",
+                  "description": "Our experts install pipes using quality materials and proven techniques."
+                },
+                {
+                  "id": "p4",
+                  "number": "04",
+                  "title": "Testing & Support",
+                  "description": "We test the system for leaks and performance, and provide ongoing support."
+                }
+              ],
+              "sidebar": {
+                "quoteForm": {
+                  "title": "Get a Free Quote",
+                  "description": "Fill out the form and our team will get back to you with the best solution for your needs.",
+                  "buttonText": "Enquire Now ->",
+                  "servicesList": [
+                    "Pipe Installation",
+                    "Leak Repairs",
+                    "Drain Cleaning",
+                    "Water Heaters",
+                    "Bathroom Stock Broker",
+                    "Emergency Stock Broker"
+                  ]
+                },
+                "servicesList": {
+                  "title": "Our Services",
+                  "services": [
+                    {
+                      "id": "s1",
+                      "label": "Stock Broker Installation",
+                      "url": "/services/stock-broker-installation"
+                    },
+                    {
+                      "id": "s2",
+                      "label": "Leak Detection Services",
+                      "url": "/services/leak-detection"
+                    },
+                    {
+                      "id": "s3",
+                      "label": "Pipe & Drain Cleaning",
+                      "url": "/services/pipe-drain-cleaning"
+                    },
+                    {
+                      "id": "s4",
+                      "label": "General Stock Broker Repair",
+                      "url": "/services/general-repair"
+                    },
+                    {
+                      "id": "s5",
+                      "label": "Water Heater Services",
+                      "url": "/services/water-heater"
+                    },
+                    {
+                      "id": "s6",
+                      "label": "Bathroom Fixture Installation",
+                      "url": "/services/bathroom-fixture"
+                    }
+                  ]
+                }
+              }
+            },
+            "leak-detection": {
+              "id": "leak-detection",
+              "subtitle": "Our Service",
+              "title1": "Leak",
+              "title2": "Detection Services",
+              "description": "Find and fix hidden leaks before they become bigger problems. We use advanced tools to detect leaks quickly and accurately.",
+              "imageMain": "/service/2.jpg",
+              "features": [
+                {
+                  "id": "f1",
+                  "icon": "FiShield",
+                  "title": "Durable Installation"
+                },
+                {
+                  "id": "f2",
+                  "icon": "FiSettings",
+                  "title": "Quality Materials"
+                },
+                {
+                  "id": "f3",
+                  "icon": "FiClock",
+                  "title": "On-Time Completion"
+                },
+                {
+                  "id": "f4",
+                  "icon": "FiUsers",
+                  "title": "Experienced Technicians"
+                }
+              ],
+              "overviewTitle": "Service Overview",
+              "overviewText": [
+                "Find and fix hidden leaks before they become bigger problems. We use advanced tools to detect leaks quickly and accurately.",
+                "From water supply lines to drainage pipes, we handle every aspect with precision and care. Our focus is on delivering reliable solutions that prevent future issues and keep your stock broker system running smoothly for years to come."
+              ],
+              "overviewImage": "/service/2.jpg",
+              "processTitle": "Our Process",
+              "processSteps": [
+                {
+                  "id": "p1",
+                  "number": "01",
+                  "title": "Site Inspection",
+                  "description": "We assess your stock broker requirements and recommend the best solution."
+                },
+                {
+                  "id": "p2",
+                  "number": "02",
+                  "title": "Planning & Design",
+                  "description": "Detailed planning to ensure a safe and efficient installation process."
+                },
+                {
+                  "id": "p3",
+                  "number": "03",
+                  "title": "Installation",
+                  "description": "Our experts install pipes using quality materials and proven techniques."
+                },
+                {
+                  "id": "p4",
+                  "number": "04",
+                  "title": "Testing & Support",
+                  "description": "We test the system for leaks and performance, and provide ongoing support."
+                }
+              ],
+              "sidebar": {
+                "quoteForm": {
+                  "title": "Get a Free Quote",
+                  "description": "Fill out the form and our team will get back to you with the best solution for your needs.",
+                  "buttonText": "Enquire Now ->",
+                  "servicesList": [
+                    "Pipe Installation",
+                    "Leak Repairs",
+                    "Drain Cleaning",
+                    "Water Heaters",
+                    "Bathroom Stock Broker",
+                    "Emergency Stock Broker"
+                  ]
+                },
+                "servicesList": {
+                  "title": "Our Services",
+                  "services": [
+                    {
+                      "id": "s1",
+                      "label": "Stock Broker Installation",
+                      "url": "/services/stock-broker-installation"
+                    },
+                    {
+                      "id": "s2",
+                      "label": "Leak Detection Services",
+                      "url": "/services/leak-detection"
+                    },
+                    {
+                      "id": "s3",
+                      "label": "Pipe & Drain Cleaning",
+                      "url": "/services/pipe-drain-cleaning"
+                    },
+                    {
+                      "id": "s4",
+                      "label": "General Stock Broker Repair",
+                      "url": "/services/general-repair"
+                    },
+                    {
+                      "id": "s5",
+                      "label": "Water Heater Services",
+                      "url": "/services/water-heater"
+                    },
+                    {
+                      "id": "s6",
+                      "label": "Bathroom Fixture Installation",
+                      "url": "/services/bathroom-fixture"
+                    }
+                  ]
+                }
+              }
+            },
+            "pipe-drain-cleaning": {
+              "id": "pipe-drain-cleaning",
+              "subtitle": "Our Service",
+              "title1": "Pipe",
+              "title2": "& Drain Cleaning",
+              "description": "Keep your pipes clear and your systems running smoothly with our professional drain cleaning services.",
+              "imageMain": "/service/3.jpg",
+              "features": [
+                {
+                  "id": "f1",
+                  "icon": "FiShield",
+                  "title": "Durable Installation"
+                },
+                {
+                  "id": "f2",
+                  "icon": "FiSettings",
+                  "title": "Quality Materials"
+                },
+                {
+                  "id": "f3",
+                  "icon": "FiClock",
+                  "title": "On-Time Completion"
+                },
+                {
+                  "id": "f4",
+                  "icon": "FiUsers",
+                  "title": "Experienced Technicians"
+                }
+              ],
+              "overviewTitle": "Service Overview",
+              "overviewText": [
+                "Keep your pipes clear and your systems running smoothly with our professional drain cleaning services.",
+                "From water supply lines to drainage pipes, we handle every aspect with precision and care. Our focus is on delivering reliable solutions that prevent future issues and keep your stock broker system running smoothly for years to come."
+              ],
+              "overviewImage": "/service/3.jpg",
+              "processTitle": "Our Process",
+              "processSteps": [
+                {
+                  "id": "p1",
+                  "number": "01",
+                  "title": "Site Inspection",
+                  "description": "We assess your stock broker requirements and recommend the best solution."
+                },
+                {
+                  "id": "p2",
+                  "number": "02",
+                  "title": "Planning & Design",
+                  "description": "Detailed planning to ensure a safe and efficient installation process."
+                },
+                {
+                  "id": "p3",
+                  "number": "03",
+                  "title": "Installation",
+                  "description": "Our experts install pipes using quality materials and proven techniques."
+                },
+                {
+                  "id": "p4",
+                  "number": "04",
+                  "title": "Testing & Support",
+                  "description": "We test the system for leaks and performance, and provide ongoing support."
+                }
+              ],
+              "sidebar": {
+                "quoteForm": {
+                  "title": "Get a Free Quote",
+                  "description": "Fill out the form and our team will get back to you with the best solution for your needs.",
+                  "buttonText": "Enquire Now ->",
+                  "servicesList": [
+                    "Pipe Installation",
+                    "Leak Repairs",
+                    "Drain Cleaning",
+                    "Water Heaters",
+                    "Bathroom Stock Broker",
+                    "Emergency Stock Broker"
+                  ]
+                },
+                "servicesList": {
+                  "title": "Our Services",
+                  "services": [
+                    {
+                      "id": "s1",
+                      "label": "Stock Broker Installation",
+                      "url": "/services/stock-broker-installation"
+                    },
+                    {
+                      "id": "s2",
+                      "label": "Leak Detection Services",
+                      "url": "/services/leak-detection"
+                    },
+                    {
+                      "id": "s3",
+                      "label": "Pipe & Drain Cleaning",
+                      "url": "/services/pipe-drain-cleaning"
+                    },
+                    {
+                      "id": "s4",
+                      "label": "General Stock Broker Repair",
+                      "url": "/services/general-repair"
+                    },
+                    {
+                      "id": "s5",
+                      "label": "Water Heater Services",
+                      "url": "/services/water-heater"
+                    },
+                    {
+                      "id": "s6",
+                      "label": "Bathroom Fixture Installation",
+                      "url": "/services/bathroom-fixture"
+                    }
+                  ]
+                }
+              }
+            },
+            "general-repair": {
+              "id": "general-repair",
+              "subtitle": "Our Service",
+              "title1": "General",
+              "title2": "Stock Broker Repair",
+              "description": "From dripping faucets to faulty pipes, we handle all types of stock broker repairs with reliable and long-lasting solutions.",
+              "imageMain": "/service/4.jpg",
+              "features": [
+                {
+                  "id": "f1",
+                  "icon": "FiShield",
+                  "title": "Durable Installation"
+                },
+                {
+                  "id": "f2",
+                  "icon": "FiSettings",
+                  "title": "Quality Materials"
+                },
+                {
+                  "id": "f3",
+                  "icon": "FiClock",
+                  "title": "On-Time Completion"
+                },
+                {
+                  "id": "f4",
+                  "icon": "FiUsers",
+                  "title": "Experienced Technicians"
+                }
+              ],
+              "overviewTitle": "Service Overview",
+              "overviewText": [
+                "From dripping faucets to faulty pipes, we handle all types of stock broker repairs with reliable and long-lasting solutions.",
+                "From water supply lines to drainage pipes, we handle every aspect with precision and care. Our focus is on delivering reliable solutions that prevent future issues and keep your stock broker system running smoothly for years to come."
+              ],
+              "overviewImage": "/service/4.jpg",
+              "processTitle": "Our Process",
+              "processSteps": [
+                {
+                  "id": "p1",
+                  "number": "01",
+                  "title": "Site Inspection",
+                  "description": "We assess your stock broker requirements and recommend the best solution."
+                },
+                {
+                  "id": "p2",
+                  "number": "02",
+                  "title": "Planning & Design",
+                  "description": "Detailed planning to ensure a safe and efficient installation process."
+                },
+                {
+                  "id": "p3",
+                  "number": "03",
+                  "title": "Installation",
+                  "description": "Our experts install pipes using quality materials and proven techniques."
+                },
+                {
+                  "id": "p4",
+                  "number": "04",
+                  "title": "Testing & Support",
+                  "description": "We test the system for leaks and performance, and provide ongoing support."
+                }
+              ],
+              "sidebar": {
+                "quoteForm": {
+                  "title": "Get a Free Quote",
+                  "description": "Fill out the form and our team will get back to you with the best solution for your needs.",
+                  "buttonText": "Enquire Now ->",
+                  "servicesList": [
+                    "Pipe Installation",
+                    "Leak Repairs",
+                    "Drain Cleaning",
+                    "Water Heaters",
+                    "Bathroom Stock Broker",
+                    "Emergency Stock Broker"
+                  ]
+                },
+                "servicesList": {
+                  "title": "Our Services",
+                  "services": [
+                    {
+                      "id": "s1",
+                      "label": "Stock Broker Installation",
+                      "url": "/services/stock-broker-installation"
+                    },
+                    {
+                      "id": "s2",
+                      "label": "Leak Detection Services",
+                      "url": "/services/leak-detection"
+                    },
+                    {
+                      "id": "s3",
+                      "label": "Pipe & Drain Cleaning",
+                      "url": "/services/pipe-drain-cleaning"
+                    },
+                    {
+                      "id": "s4",
+                      "label": "General Stock Broker Repair",
+                      "url": "/services/general-repair"
+                    },
+                    {
+                      "id": "s5",
+                      "label": "Water Heater Services",
+                      "url": "/services/water-heater"
+                    },
+                    {
+                      "id": "s6",
+                      "label": "Bathroom Fixture Installation",
+                      "url": "/services/bathroom-fixture"
+                    }
+                  ]
+                }
+              }
+            },
+            "water-heater": {
+              "id": "water-heater",
+              "subtitle": "Our Service",
+              "title1": "Water",
+              "title2": "Heater Services",
+              "description": "Installation, repair and maintenance of all types of water heaters to ensure a continuous supply of hot water.",
+              "imageMain": "/service/5.jpg",
+              "features": [
+                {
+                  "id": "f1",
+                  "icon": "FiShield",
+                  "title": "Durable Installation"
+                },
+                {
+                  "id": "f2",
+                  "icon": "FiSettings",
+                  "title": "Quality Materials"
+                },
+                {
+                  "id": "f3",
+                  "icon": "FiClock",
+                  "title": "On-Time Completion"
+                },
+                {
+                  "id": "f4",
+                  "icon": "FiUsers",
+                  "title": "Experienced Technicians"
+                }
+              ],
+              "overviewTitle": "Service Overview",
+              "overviewText": [
+                "Installation, repair and maintenance of all types of water heaters to ensure a continuous supply of hot water.",
+                "From water supply lines to drainage pipes, we handle every aspect with precision and care. Our focus is on delivering reliable solutions that prevent future issues and keep your stock broker system running smoothly for years to come."
+              ],
+              "overviewImage": "/service/5.jpg",
+              "processTitle": "Our Process",
+              "processSteps": [
+                {
+                  "id": "p1",
+                  "number": "01",
+                  "title": "Site Inspection",
+                  "description": "We assess your stock broker requirements and recommend the best solution."
+                },
+                {
+                  "id": "p2",
+                  "number": "02",
+                  "title": "Planning & Design",
+                  "description": "Detailed planning to ensure a safe and efficient installation process."
+                },
+                {
+                  "id": "p3",
+                  "number": "03",
+                  "title": "Installation",
+                  "description": "Our experts install pipes using quality materials and proven techniques."
+                },
+                {
+                  "id": "p4",
+                  "number": "04",
+                  "title": "Testing & Support",
+                  "description": "We test the system for leaks and performance, and provide ongoing support."
+                }
+              ],
+              "sidebar": {
+                "quoteForm": {
+                  "title": "Get a Free Quote",
+                  "description": "Fill out the form and our team will get back to you with the best solution for your needs.",
+                  "buttonText": "Enquire Now ->",
+                  "servicesList": [
+                    "Pipe Installation",
+                    "Leak Repairs",
+                    "Drain Cleaning",
+                    "Water Heaters",
+                    "Bathroom Stock Broker",
+                    "Emergency Stock Broker"
+                  ]
+                },
+                "servicesList": {
+                  "title": "Our Services",
+                  "services": [
+                    {
+                      "id": "s1",
+                      "label": "Stock Broker Installation",
+                      "url": "/services/stock-broker-installation"
+                    },
+                    {
+                      "id": "s2",
+                      "label": "Leak Detection Services",
+                      "url": "/services/leak-detection"
+                    },
+                    {
+                      "id": "s3",
+                      "label": "Pipe & Drain Cleaning",
+                      "url": "/services/pipe-drain-cleaning"
+                    },
+                    {
+                      "id": "s4",
+                      "label": "General Stock Broker Repair",
+                      "url": "/services/general-repair"
+                    },
+                    {
+                      "id": "s5",
+                      "label": "Water Heater Services",
+                      "url": "/services/water-heater"
+                    },
+                    {
+                      "id": "s6",
+                      "label": "Bathroom Fixture Installation",
+                      "url": "/services/bathroom-fixture"
+                    }
+                  ]
+                }
+              }
+            },
+            "bathroom-fixture": {
+              "id": "bathroom-fixture",
+              "subtitle": "Our Service",
+              "title1": "Bathroom",
+              "title2": "Fixture Installation",
+              "description": "We install and repair sinks, faucets, toilets, showers and other bathroom fixtures with expertise and care.",
+              "imageMain": "/service/6.jpg",
+              "features": [
+                {
+                  "id": "f1",
+                  "icon": "FiShield",
+                  "title": "Durable Installation"
+                },
+                {
+                  "id": "f2",
+                  "icon": "FiSettings",
+                  "title": "Quality Materials"
+                },
+                {
+                  "id": "f3",
+                  "icon": "FiClock",
+                  "title": "On-Time Completion"
+                },
+                {
+                  "id": "f4",
+                  "icon": "FiUsers",
+                  "title": "Experienced Technicians"
+                }
+              ],
+              "overviewTitle": "Service Overview",
+              "overviewText": [
+                "We install and repair sinks, faucets, toilets, showers and other bathroom fixtures with expertise and care.",
+                "From water supply lines to drainage pipes, we handle every aspect with precision and care. Our focus is on delivering reliable solutions that prevent future issues and keep your stock broker system running smoothly for years to come."
+              ],
+              "overviewImage": "/service/6.jpg",
+              "processTitle": "Our Process",
+              "processSteps": [
+                {
+                  "id": "p1",
+                  "number": "01",
+                  "title": "Site Inspection",
+                  "description": "We assess your stock broker requirements and recommend the best solution."
+                },
+                {
+                  "id": "p2",
+                  "number": "02",
+                  "title": "Planning & Design",
+                  "description": "Detailed planning to ensure a safe and efficient installation process."
+                },
+                {
+                  "id": "p3",
+                  "number": "03",
+                  "title": "Installation",
+                  "description": "Our experts install pipes using quality materials and proven techniques."
+                },
+                {
+                  "id": "p4",
+                  "number": "04",
+                  "title": "Testing & Support",
+                  "description": "We test the system for leaks and performance, and provide ongoing support."
+                }
+              ],
+              "sidebar": {
+                "quoteForm": {
+                  "title": "Get a Free Quote",
+                  "description": "Fill out the form and our team will get back to you with the best solution for your needs.",
+                  "buttonText": "Enquire Now ->",
+                  "servicesList": [
+                    "Pipe Installation",
+                    "Leak Repairs",
+                    "Drain Cleaning",
+                    "Water Heaters",
+                    "Bathroom Stock Broker",
+                    "Emergency Stock Broker"
+                  ]
+                },
+                "servicesList": {
+                  "title": "Our Services",
+                  "services": [
+                    {
+                      "id": "s1",
+                      "label": "Stock Broker Installation",
+                      "url": "/services/stock-broker-installation"
+                    },
+                    {
+                      "id": "s2",
+                      "label": "Leak Detection Services",
+                      "url": "/services/leak-detection"
+                    },
+                    {
+                      "id": "s3",
+                      "label": "Pipe & Drain Cleaning",
+                      "url": "/services/pipe-drain-cleaning"
+                    },
+                    {
+                      "id": "s4",
+                      "label": "General Stock Broker Repair",
+                      "url": "/services/general-repair"
+                    },
+                    {
+                      "id": "s5",
+                      "label": "Water Heater Services",
+                      "url": "/services/water-heater"
+                    },
+                    {
+                      "id": "s6",
+                      "label": "Bathroom Fixture Installation",
+                      "url": "/services/bathroom-fixture"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "Achievement": {
+          "variants": {
+            "RestaurantFoodAchievement1": {
+              "subtitle": "Our Achievements",
+              "title1": "Numbers",
+              "title2": "That Tell Our Story",
+              "description": "Over the years, we have served delicious food, created memorable moments, and built a strong community of food lovers.",
+              "backgroundImage": "/choose/achievment_bg.webp",
+              "backgroundImageAlt": "Chef preparing a signature restaurant dish",
+              "counterDurationMs": 1800,
+              "motto": {
+                "line1": "Good",
+                "line2": "Food",
+                "highlightedLine": "Good Mood"
+              },
+              "items": [
+                {
+                  "id": "achievement-experience",
+                  "icon": "FaAward",
+                  "value": 10,
+                  "suffix": "+",
+                  "label": "Years of Experience"
+                },
+                {
+                  "id": "achievement-customers",
+                  "icon": "FaUsers",
+                  "value": 50,
+                  "suffix": "K+",
+                  "label": "Happy Customers"
+                },
+                {
+                  "id": "achievement-chefs",
+                  "icon": "GiChefToque",
+                  "value": 25,
+                  "suffix": "+",
+                  "label": "Expert Chefs"
+                },
+                {
+                  "id": "achievement-dishes",
+                  "icon": "GiMeal",
+                  "value": 100,
+                  "suffix": "+",
+                  "label": "Dishes Served"
+                }
+              ]
+            }
+          }
+        },
+        "Journey": {
+          "variants": {
+            "RestaurantFoodJourney1": {
+              "subtitle": "Our Journey",
+              "title": "A Journey Of",
+              "highlightedTitle": "Great Taste",
+              "description": "From a small idea to a beloved dining destination, our journey has been filled with passion, hard work, and the love of great food.",
+              "mainImage": "/about/about1.webp",
+              "mainImageAlt": "Chef carefully preparing a TASTY BITE signature dish",
+              "items": [
+                {
+                  "id": "journey-2015-beginning",
+                  "year": "2015",
+                  "title": "The",
+                  "highlightedTitle": "Beginning",
+                  "description": "We started TastyBite with a simple idea — to bring delicious food and warm hospitality to our community.",
+                  "image": "/about/about1.webp",
+                  "imageAlt": "The beginning of the TASTY BITE restaurant journey"
+                },
+                {
+                  "id": "journey-2018-growing-together",
+                  "year": "2018",
+                  "title": "Growing",
+                  "highlightedTitle": "Together",
+                  "description": "With the love and support of our guests, we expanded our menu and created more memorable dining experiences.",
+                  "image": "/about/about2.webp",
+                  "imageAlt": "TASTY BITE growing together with its guests"
+                },
+                {
+                  "id": "journey-2021-bigger-kitchen",
+                  "year": "2021",
+                  "title": "A Bigger",
+                  "highlightedTitle": "Kitchen",
+                  "description": "We upgraded our kitchen with modern equipment and welcomed talented chefs to serve you even better.",
+                  "image": "/about/about1.webp",
+                  "imageAlt": "Chef working in the upgraded TASTY BITE kitchen"
+                },
+                {
+                  "id": "journey-2024-bright-future",
+                  "year": "2024",
+                  "title": "A Bright",
+                  "highlightedTitle": "Future",
+                  "description": "Today, TastyBite is more than just a restaurant — it’s a place where food lovers come together, and our journey continues with new flavors, new experiences, and the same passion.",
+                  "image": "/about/about2.webp",
+                  "imageAlt": "The bright future of TASTY BITE"
+                }
+              ]
+            }
+          }
+        },
+        "Testimonials": {
+          "variants": {
+            "RestaurantFoodTestimonials1": {
+              "subtitle": "Testimonials",
+              "title1": "What Our",
+              "title2": "Customers Say",
+              "description": "Real experiences from our happy diners.",
+              "backgroundImage": "/chef/chef_bg.webp",
+              "autoPlayIntervalMs": 5000,
+              "previousLabel": "Previous testimonials",
+              "nextLabel": "Next testimonials",
+              "slideLabel": "Show testimonial",
+              "testimonials": [
+                {
+                  "id": "testimonial-neha-sharma",
+                  "name": "Neha Sharma",
+                  "location": "Happy Customer",
+                  "quote": "Amazing food, great ambiance, and excellent service! Every dish was full of flavor and beautifully presented. It’s my favorite place to dine with family and friends.",
+                  "rating": 5,
+                  "avatar": "/testimonials/2.webp"
+                },
+                {
+                  "id": "testimonial-simran-kaur",
+                  "name": "Simran Kaur",
+                  "location": "Regular Guest",
+                  "quote": "The food is consistently fresh and delicious. TASTY BITE has become my favorite place for relaxed dinners with friends.",
+                  "rating": 5,
+                  "avatar": "/testimonials/2.webp"
+                },
+                {
+                  "id": "testimonial-neha-verma",
+                  "name": "Neha Verma",
+                  "location": "Family Diner",
+                  "quote": "From the starters to dessert, everything tasted wonderful. The welcoming atmosphere made our family celebration unforgettable.",
+                  "rating": 5,
+                  "avatar": "/testimonials/1.webp"
+                },
+                {
+                  "id": "testimonial-isha-malhotra",
+                  "name": "Isha Malhotra",
+                  "location": "Local Guide",
+                  "quote": "Creative dishes, generous portions, and attentive staff make this restaurant stand out. I recommend it to everyone I know.",
+                  "rating": 5,
+                  "avatar": "/testimonials/2.webp"
+                }
+              ]
+            }
+          }
+        },
+        "TestimonialPage": {
+          "variants": {
+            "RestaurantFoodTestimonialPage1": {
+              "subtitle": "Testimonials",
+              "title1": "What Our",
+              "title2": "Customers Say",
+              "description": "Real experiences from our happy diners.",
+              "backgroundImage": "/chef/chef_bg.webp",
+              "previousPageLabel": "Show previous testimonials",
+              "nextPageLabel": "Show next testimonials",
+              "pages": [
+                {
+                  "id": "testimonial-page-1",
+                  "label": "1",
+                  "testimonials": [
+                    { "id": "testimonial-page-priya-sharma", "name": "Priya Sharma", "location": "New Delhi", "quote": "Amazing food and beautiful ambience. Every dish was cooked with care, and the service made our family dinner truly memorable.", "avatar": "/testimonials/t1.webp", "avatarAlt": "Priya Sharma" },
+                    { "id": "testimonial-page-rohit-mehta", "name": "Rohit Mehta", "location": "Noida", "quote": "Absolutely loved the food. Great service, delicious flavors and a wonderful atmosphere made the evening feel special.", "avatar": "/testimonials/t2.webp", "avatarAlt": "Rohit Mehta" },
+                    { "id": "testimonial-page-anjali-verma", "name": "Anjali Verma", "location": "Ghaziabad", "quote": "One of the best dining experiences in town. The taste, presentation and ambience were simply outstanding.", "avatar": "/testimonials/t3.webp", "avatarAlt": "Anjali Verma" },
+                    { "id": "testimonial-page-vikram-singh", "name": "Vikram Singh", "location": "Gurugram", "quote": "Delicious food, great variety and excellent customer service. The quality and taste exceeded my expectations.", "avatar": "/testimonials/t4.webp", "avatarAlt": "Vikram Singh" },
+                    { "id": "testimonial-page-neha-kapoor", "name": "Neha Kapoor", "location": "Faridabad", "quote": "The desserts are simply amazing. I loved the warm hospitality and relaxing atmosphere for a meal with friends.", "avatar": "/testimonials/t5.webp", "avatarAlt": "Neha Kapoor" },
+                    { "id": "testimonial-page-karan-malhotra", "name": "Karan Malhotra", "location": "Noida", "quote": "Fresh ingredients, excellent taste and great service. The menu has something for everyone and is a must-visit for food lovers.", "avatar": "/testimonials/t6.webp", "avatarAlt": "Karan Malhotra" }
+                  ]
+                },
+                {
+                  "id": "testimonial-page-2",
+                  "label": "2",
+                  "testimonials": [
+                    { "id": "testimonial-page-sneha-iyer", "name": "Sneha Iyer", "location": "New Delhi", "quote": "Wonderful food and a cozy atmosphere. The staff was polite and attentive, and every dish tasted fresh and flavorful.", "avatar": "/testimonials/t1.webp", "avatarAlt": "Sneha Iyer" },
+                    { "id": "testimonial-page-amit-yadav", "name": "Amit Yadav", "location": "Greater Noida", "quote": "A great place with amazing food, excellent service and a lovely ambience for family outings or casual dinners.", "avatar": "/testimonials/t2.webp", "avatarAlt": "Amit Yadav" },
+                    { "id": "testimonial-page-divya-agarwal", "name": "Divya Agarwal", "location": "Noida", "quote": "The food, service and ambience are all top-notch. I loved the variety and authentic taste and will surely visit again.", "avatar": "/testimonials/t3.webp", "avatarAlt": "Divya Agarwal" },
+                    { "id": "testimonial-page-aakash-verma", "name": "Aakash Verma", "location": "New Delhi", "quote": "The presentation was beautiful and every course arrived fresh. The team made our celebration comfortable and enjoyable.", "avatar": "/testimonials/t4.webp", "avatarAlt": "Aakash Verma" },
+                    { "id": "testimonial-page-rhea-khanna", "name": "Rhea Khanna", "location": "Gurugram", "quote": "A welcoming restaurant with creative dishes and thoughtful service. The flavors were balanced and portions were generous.", "avatar": "/testimonials/t5.webp", "avatarAlt": "Rhea Khanna" },
+                    { "id": "testimonial-page-mohit-saxena", "name": "Mohit Saxena", "location": "Faridabad", "quote": "From starters to dessert, everything was delicious. The friendly staff and calm ambience made us want to return soon.", "avatar": "/testimonials/t6.webp", "avatarAlt": "Mohit Saxena" }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "Blogs": {
+          "variants": {
+            "RestaurantFoodBlogs1": {
+              "subtitle": "From Our Blog",
+              "title1": "Latest",
+              "title2": "Food",
+              "title3": "Updates",
+              "description": "Stay updated with our latest news, recipes, events, and food stories from our restaurant.",
+              "readMoreText": "Read More",
+              "loadMoreText": "Load More",
+              "button": {
+                "text": "View All Blogs",
+                "url": "/blog"
+              },
+              "blogs": [
+                {
+                  "id": "blog-best-dishes",
+                  "image": "/blog/blog-1.webp",
+                  "imageAlt": "Freshly prepared restaurant dish",
+                  "date": "18 Dec 2025",
+                  "category": "FOOD STORIES",
+                  "author": "By Admin",
+                  "commentLabel": "No Comment",
+                  "title": "The Best Dishes To Try This Season At Our Restaurant",
+                  "description": "Discover seasonal dishes prepared with fresh ingredients and bold flavours.",
+                  "url": "/blog",
+                  "content": {
+                    "intro": "Technology issues can be inconvenient, costly, and disruptive to your daily business operations. The good news is that most common IT problems can be prevented with simple maintenance and mindful habits. In this guide, we will share practical tips to keep your systems in good condition and avoid unexpected downtime.",
+                    "sections": [
+                      {
+                        "heading": "1. Keep Software Updated",
+                        "text": "One of the most common causes of IT problems is outdated software. Always keep your systems, plugins, and tools up to date."
+                      },
+                      {
+                        "heading": "2. Check for Security Vulnerabilities",
+                        "text": "Security breaches can be devastating. Regularly audit your infrastructure and protect your data."
+                      },
+                      {
+                        "heading": "3. Maintain Your Hardware",
+                        "text": "Your servers and devices work hard, so regular maintenance is key."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "blog-classy-sauces",
+                  "image": "/blog/blog-2.webp",
+                  "imageAlt": "Waiter serving guests at the restaurant",
+                  "date": "20 Dec 2025",
+                  "category": "CHEF TIPS",
+                  "author": "By Admin",
+                  "commentLabel": "No Comment",
+                  "title": "Classy Sauces To Make Meat Melt In Your Mouth",
+                  "description": "Learn how our chefs build rich sauces that elevate every dish.",
+                  "url": "/blog",
+                  "content": {
+                    "intro": "Technology issues can be inconvenient, costly, and disruptive to your daily business operations. The good news is that most common IT problems can be prevented with simple maintenance and mindful habits. In this guide, we will share practical tips to keep your systems in good condition and avoid unexpected downtime.",
+                    "sections": [
+                      {
+                        "heading": "1. Keep Software Updated",
+                        "text": "One of the most common causes of IT problems is outdated software. Always keep your systems, plugins, and tools up to date."
+                      },
+                      {
+                        "heading": "2. Check for Security Vulnerabilities",
+                        "text": "Security breaches can be devastating. Regularly audit your infrastructure and protect your data."
+                      },
+                      {
+                        "heading": "3. Maintain Your Hardware",
+                        "text": "Your servers and devices work hard, so regular maintenance is key."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "blog-restaurant-interior",
+                  "image": "/blog/blog-3.webp",
+                  "imageAlt": "Warm and elegant restaurant interior",
+                  "date": "25 Dec 2025",
+                  "category": "RESTAURANT NEWS",
+                  "author": "By Admin",
+                  "commentLabel": "No Comment",
+                  "title": "New Interior Design In Our Delicious Restaurant",
+                  "description": "Step inside our refreshed dining space designed for warm and memorable moments.",
+                  "url": "/blog",
+                  "content": {
+                    "intro": "Technology issues can be inconvenient, costly, and disruptive to your daily business operations. The good news is that most common IT problems can be prevented with simple maintenance and mindful habits. In this guide, we will share practical tips to keep your systems in good condition and avoid unexpected downtime.",
+                    "sections": [
+                      {
+                        "heading": "1. Keep Software Updated",
+                        "text": "One of the most common causes of IT problems is outdated software. Always keep your systems, plugins, and tools up to date."
+                      },
+                      {
+                        "heading": "2. Check for Security Vulnerabilities",
+                        "text": "Security breaches can be devastating. Regularly audit your infrastructure and protect your data."
+                      },
+                      {
+                        "heading": "3. Maintain Your Hardware",
+                        "text": "Your servers and devices work hard, so regular maintenance is key."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "b4",
+                  "image": "/blog/3.webp",
+                  "date": "12 Jun 2026",
+                  "category": "TECH INSIGHTS",
+                  "title": "Top Signs You Need a Professional Tech",
+                  "description": "Learn about the most common tech issues homeowners face and simple tips to fix them before they become major problems.",
+                  "url": "/blog/top-signs-you-need-a-professional-plumber",
+                  "content": {
+                    "intro": "Technology issues can be inconvenient, costly, and disruptive to your daily business operations. The good news is that most common IT problems can be prevented with simple maintenance and mindful habits. In this guide, we will share practical tips to keep your systems in good condition and avoid unexpected downtime.",
+                    "sections": [
+                      {
+                        "heading": "1. Keep Software Updated",
+                        "text": "One of the most common causes of IT problems is outdated software. Always keep your systems, plugins, and tools up to date."
+                      },
+                      {
+                        "heading": "2. Check for Security Vulnerabilities",
+                        "text": "Security breaches can be devastating. Regularly audit your infrastructure and protect your data."
+                      },
+                      {
+                        "heading": "3. Maintain Your Hardware",
+                        "text": "Your servers and devices work hard, so regular maintenance is key."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "b5",
+                  "image": "/blog/5.webp",
+                  "date": "12 Jun 2026",
+                  "category": "TECH INSIGHTS",
+                  "title": "How to Stop a Running System Fast",
+                  "description": "Learn about the most common tech issues homeowners face and simple tips to fix them before they become major problems.",
+                  "url": "/blog/how-to-stop-a-running-toilet-fast",
+                  "content": {
+                    "intro": "Technology issues can be inconvenient, costly, and disruptive to your daily business operations. The good news is that most common IT problems can be prevented with simple maintenance and mindful habits. In this guide, we will share practical tips to keep your systems in good condition and avoid unexpected downtime.",
+                    "sections": [
+                      {
+                        "heading": "1. Keep Software Updated",
+                        "text": "One of the most common causes of IT problems is outdated software. Always keep your systems, plugins, and tools up to date."
+                      },
+                      {
+                        "heading": "2. Check for Security Vulnerabilities",
+                        "text": "Security breaches can be devastating. Regularly audit your infrastructure and protect your data."
+                      },
+                      {
+                        "heading": "3. Maintain Your Hardware",
+                        "text": "Your servers and devices work hard, so regular maintenance is key."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "b6",
+                  "image": "/blog/6.webp",
+                  "date": "12 Jun 2026",
+                  "category": "TECH INSIGHTS",
+                  "title": "The Dangers of System System Cleaners",
+                  "description": "Learn about the most common tech issues homeowners face and simple tips to fix them before they become major problems.",
+                  "url": "/blog/the-dangers-of-chemical-drain-cleaners",
+                  "content": {
+                    "intro": "Technology issues can be inconvenient, costly, and disruptive to your daily business operations. The good news is that most common IT problems can be prevented with simple maintenance and mindful habits. In this guide, we will share practical tips to keep your systems in good condition and avoid unexpected downtime.",
+                    "sections": [
+                      {
+                        "heading": "1. Keep Software Updated",
+                        "text": "One of the most common causes of IT problems is outdated software. Always keep your systems, plugins, and tools up to date."
+                      },
+                      {
+                        "heading": "2. Check for Security Vulnerabilities",
+                        "text": "Security breaches can be devastating. Regularly audit your infrastructure and protect your data."
+                      },
+                      {
+                        "heading": "3. Maintain Your Hardware",
+                        "text": "Your servers and devices work hard, so regular maintenance is key."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "b7",
+                  "image": "/portfolio/app/1.webp",
+                  "date": "12 Jun 2026",
+                  "category": "TECH INSIGHTS",
+                  "title": "Winterizing Your Home Tech System",
+                  "description": "Learn about the most common tech issues homeowners face and simple tips to fix them before they become major problems.",
+                  "url": "/blog/winterizing-your-home-stock-broker-system",
+                  "content": {
+                    "intro": "Technology issues can be inconvenient, costly, and disruptive to your daily business operations. The good news is that most common IT problems can be prevented with simple maintenance and mindful habits. In this guide, we will share practical tips to keep your systems in good condition and avoid unexpected downtime.",
+                    "sections": [
+                      {
+                        "heading": "1. Keep Software Updated",
+                        "text": "One of the most common causes of IT problems is outdated software. Always keep your systems, plugins, and tools up to date."
+                      },
+                      {
+                        "heading": "2. Check for Security Vulnerabilities",
+                        "text": "Security breaches can be devastating. Regularly audit your infrastructure and protect your data."
+                      },
+                      {
+                        "heading": "3. Maintain Your Hardware",
+                        "text": "Your servers and devices work hard, so regular maintenance is key."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "b8",
+                  "image": "/portfolio/app/2.webp",
+                  "date": "12 Jun 2026",
+                  "category": "TECH INSIGHTS",
+                  "title": "Benefits of Upgrading to a Tankless System",
+                  "description": "Learn about the most common tech issues homeowners face and simple tips to fix them before they become major problems.",
+                  "url": "/blog/benefits-of-upgrading-to-a-tankless-water-heater",
+                  "content": {
+                    "intro": "Technology issues can be inconvenient, costly, and disruptive to your daily business operations. The good news is that most common IT problems can be prevented with simple maintenance and mindful habits. In this guide, we will share practical tips to keep your systems in good condition and avoid unexpected downtime.",
+                    "sections": [
+                      {
+                        "heading": "1. Keep Software Updated",
+                        "text": "One of the most common causes of IT problems is outdated software. Always keep your systems, plugins, and tools up to date."
+                      },
+                      {
+                        "heading": "2. Check for Security Vulnerabilities",
+                        "text": "Security breaches can be devastating. Regularly audit your infrastructure and protect your data."
+                      },
+                      {
+                        "heading": "3. Maintain Your Hardware",
+                        "text": "Your servers and devices work hard, so regular maintenance is key."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "b9",
+                  "image": "/portfolio/app/3.webp",
+                  "date": "12 Jun 2026",
+                  "category": "TECH INSIGHTS",
+                  "title": "What to Do During a Tech Emergency",
+                  "description": "Learn about the most common tech issues homeowners face and simple tips to fix them before they become major problems.",
+                  "url": "/blog/what-to-do-during-a-stock-broker-emergency",
+                  "content": {
+                    "intro": "Technology issues can be inconvenient, costly, and disruptive to your daily business operations. The good news is that most common IT problems can be prevented with simple maintenance and mindful habits. In this guide, we will share practical tips to keep your systems in good condition and avoid unexpected downtime.",
+                    "sections": [
+                      {
+                        "heading": "1. Keep Software Updated",
+                        "text": "One of the most common causes of IT problems is outdated software. Always keep your systems, plugins, and tools up to date."
+                      },
+                      {
+                        "heading": "2. Check for Security Vulnerabilities",
+                        "text": "Security breaches can be devastating. Regularly audit your infrastructure and protect your data."
+                      },
+                      {
+                        "heading": "3. Maintain Your Hardware",
+                        "text": "Your servers and devices work hard, so regular maintenance is key."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "b10",
+                  "image": "/portfolio/ui/1.webp",
+                  "date": "12 Jun 2026",
+                  "category": "TECH INSIGHTS",
+                  "title": "Understanding Your Home Water Pressure",
+                  "description": "Learn about the most common tech issues homeowners face and simple tips to fix them before they become major problems.",
+                  "url": "/blog/understanding-your-home-water-pressure",
+                  "content": {
+                    "intro": "Technology issues can be inconvenient, costly, and disruptive to your daily business operations. The good news is that most common IT problems can be prevented with simple maintenance and mindful habits. In this guide, we will share practical tips to keep your systems in good condition and avoid unexpected downtime.",
+                    "sections": [
+                      {
+                        "heading": "1. Keep Software Updated",
+                        "text": "One of the most common causes of IT problems is outdated software. Always keep your systems, plugins, and tools up to date."
+                      },
+                      {
+                        "heading": "2. Check for Security Vulnerabilities",
+                        "text": "Security breaches can be devastating. Regularly audit your infrastructure and protect your data."
+                      },
+                      {
+                        "heading": "3. Maintain Your Hardware",
+                        "text": "Your servers and devices work hard, so regular maintenance is key."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "b11",
+                  "image": "/portfolio/ui/2.webp",
+                  "date": "12 Jun 2026",
+                  "category": "TECH INSIGHTS",
+                  "title": "Simple Tips to Keep Your Systems Clean",
+                  "description": "Learn about the most common tech issues homeowners face and simple tips to fix them before they become major problems.",
+                  "url": "/blog/simple-tips-to-keep-your-drains-clean",
+                  "content": {
+                    "intro": "Technology issues can be inconvenient, costly, and disruptive to your daily business operations. The good news is that most common IT problems can be prevented with simple maintenance and mindful habits. In this guide, we will share practical tips to keep your systems in good condition and avoid unexpected downtime.",
+                    "sections": [
+                      {
+                        "heading": "1. Keep Software Updated",
+                        "text": "One of the most common causes of IT problems is outdated software. Always keep your systems, plugins, and tools up to date."
+                      },
+                      {
+                        "heading": "2. Check for Security Vulnerabilities",
+                        "text": "Security breaches can be devastating. Regularly audit your infrastructure and protect your data."
+                      },
+                      {
+                        "heading": "3. Maintain Your Hardware",
+                        "text": "Your servers and devices work hard, so regular maintenance is key."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "b12",
+                  "image": "/portfolio/ui/3.webp",
+                  "date": "12 Jun 2026",
+                  "category": "TECH INSIGHTS",
+                  "title": "How to Maintain Your System for Long Life",
+                  "description": "Learn about the most common tech issues homeowners face and simple tips to fix them before they become major problems.",
+                  "url": "/blog/how-to-maintain-your-water-heater-for-long-life",
+                  "content": {
+                    "intro": "Technology issues can be inconvenient, costly, and disruptive to your daily business operations. The good news is that most common IT problems can be prevented with simple maintenance and mindful habits. In this guide, we will share practical tips to keep your systems in good condition and avoid unexpected downtime.",
+                    "sections": [
+                      {
+                        "heading": "1. Keep Software Updated",
+                        "text": "One of the most common causes of IT problems is outdated software. Always keep your systems, plugins, and tools up to date."
+                      },
+                      {
+                        "heading": "2. Check for Security Vulnerabilities",
+                        "text": "Security breaches can be devastating. Regularly audit your infrastructure and protect your data."
+                      },
+                      {
+                        "heading": "3. Maintain Your Hardware",
+                        "text": "Your servers and devices work hard, so regular maintenance is key."
+                      }
+                    ]
+                  }
+                }
+              ],
+              "pageBlogs": [
+                {
+                  "id": "page-blog-investment-strategies-row-1",
+                  "image": "/blog/blog-1.webp",
+                  "imageAlt": "Investor analyzing stock market strategies",
+                  "date": "15 Feb 2025",
+                  "category": "MARKET INSIGHTS",
+                  "title": "Top 5 Investment Strategies for 2025",
+                  "description": "Explore effective investment strategies to navigate market opportunities in 2025 and build long-term wealth.",
+                  "url": "/blog/top-investment-strategies-for-2025"
+                },
+                {
+                  "id": "page-blog-mutual-funds-row-1",
+                  "image": "/blog/blog-2.webp",
+                  "imageAlt": "Growing investment represented by stacked coins and a plant",
+                  "date": "12 Feb 2025",
+                  "category": "INVESTMENT TIPS",
+                  "title": "Mutual Funds vs Direct Stocks: Which is Better?",
+                  "description": "Understand the key differences, benefits and risks to choose the right investment option for your financial goals.",
+                  "url": "/blog/mutual-funds-vs-direct-stocks"
+                },
+                {
+                  "id": "page-blog-market-trends-row-1",
+                  "image": "/blog/blog-3.webp",
+                  "imageAlt": "Market analyst reading candlestick chart trends",
+                  "date": "08 Feb 2025",
+                  "category": "TRADING GUIDES",
+                  "title": "How to Read Market Trends Like a Pro",
+                  "description": "Learn the key indicators and chart patterns to identify market trends and make informed trading decisions.",
+                  "url": "/blog/how-to-read-market-trends"
+                },
+                {
+                  "id": "page-blog-investment-strategies-row-2",
+                  "image": "/blog/blog-1.webp",
+                  "imageAlt": "Investor analyzing stock market strategies",
+                  "date": "15 Feb 2025",
+                  "category": "MARKET INSIGHTS",
+                  "title": "Top 5 Investment Strategies for 2025",
+                  "description": "Explore effective investment strategies to navigate market opportunities in 2025 and build long-term wealth.",
+                  "url": "/blog/top-investment-strategies-for-2025"
+                },
+                {
+                  "id": "page-blog-mutual-funds-row-2",
+                  "image": "/blog/blog-2.webp",
+                  "imageAlt": "Growing investment represented by stacked coins and a plant",
+                  "date": "12 Feb 2025",
+                  "category": "INVESTMENT TIPS",
+                  "title": "Mutual Funds vs Direct Stocks: Which is Better?",
+                  "description": "Understand the key differences, benefits and risks to choose the right investment option for your financial goals.",
+                  "url": "/blog/mutual-funds-vs-direct-stocks"
+                },
+                {
+                  "id": "page-blog-market-trends-row-2",
+                  "image": "/blog/blog-3.webp",
+                  "imageAlt": "Market analyst reading candlestick chart trends",
+                  "date": "08 Feb 2025",
+                  "category": "TRADING GUIDES",
+                  "title": "How to Read Market Trends Like a Pro",
+                  "description": "Learn the key indicators and chart patterns to identify market trends and make informed trading decisions.",
+                  "url": "/blog/how-to-read-market-trends"
+                }
+              ],
+              "sidebarCta": {
+                "title1": "Need Professional",
+                "title2": "IT Support?",
+                "description": "Our experienced team is ready to assist you with all your IT needs. Get in touch today for a quick and reliable solution.",
+                "buttonText": "Enquire Now ->",
+                "buttonUrl": "/enquiry"
+              }
+            }
+          }
+        },
+        "BlogPage": {
+          "variants": {
+            "RestaurantFoodBlogPage1": {
+              "subtitle": "From Our Blog",
+              "title1": "Latest",
+              "title2": "Food",
+              "title3": "Updates",
+              "description": "Stay updated with our latest news, recipes, events, and food stories from our restaurant.",
+              "previousPageLabel": "Show previous blogs",
+              "nextPageLabel": "Show next blogs",
+              "pages": [
+                {
+                  "id": "blog-page-1",
+                  "label": "1",
+                  "blogs": [
+                    { "id": "blog-pasta-recipes", "slug": "delicious-pasta-recipes", "image": "/blog/blog-1.webp", "imageAlt": "Fresh pasta with tomatoes and herbs", "date": "12 Oct 2026", "dateDay": "12", "dateMonth": "Oct", "category": "Food & Recipes", "author": "By Admin", "commentLabel": "No Comment", "title": "5 Delicious Pasta Recipes You Must Try", "detailTitle1": "5 Delicious Pasta Recipes", "detailTitle2": "You Must Try", "description": "Discover five comforting pasta recipes made with fresh ingredients, balanced sauces and restaurant-inspired flavor.", "url": "/blog/delicious-pasta-recipes" },
+                    { "id": "blog-chef-magic", "slug": "how-our-chefs-create-magic", "image": "/blog/blog-2.webp", "imageAlt": "Chef carefully plating a restaurant dish", "date": "18 Oct 2026", "dateDay": "18", "dateMonth": "Oct", "category": "Chef Stories", "author": "By Admin", "commentLabel": "No Comment", "title": "Behind The Scenes: How Our Chefs Create Magic", "detailTitle1": "Behind The Scenes:", "detailTitle2": "How Our Chefs Create Magic", "description": "Step inside our kitchen and see how skill, teamwork and fresh ingredients come together in every plate.", "url": "/blog/how-our-chefs-create-magic" },
+                    { "id": "blog-perfect-ambience", "slug": "perfect-restaurant-ambience", "image": "/blog/blog-3.webp", "imageAlt": "Warm and welcoming restaurant interior", "date": "22 Oct 2026", "dateDay": "22", "dateMonth": "Oct", "category": "Restaurant News", "author": "By Admin", "commentLabel": "No Comment", "title": "Creating The Perfect Ambience For A Memorable Dining Experience", "detailTitle1": "Creating The Perfect Ambience", "detailTitle2": "For A Memorable Dining Experience", "description": "Learn how lighting, thoughtful service and comfortable design shape an unforgettable restaurant experience.", "url": "/blog/perfect-restaurant-ambience" },
+                    { "id": "blog-indian-dishes", "slug": "top-indian-dishes", "image": "/blog/blog-4.webp", "imageAlt": "Selection of popular Indian dishes", "date": "26 Oct 2026", "dateDay": "26", "dateMonth": "Oct", "category": "Food & Recipes", "author": "By Admin", "commentLabel": "No Comment", "title": "Top Indian Dishes Loved By Our Customers", "detailTitle1": "Top Indian Dishes", "detailTitle2": "Loved By Our Customers", "description": "Explore the aromatic Indian dishes our guests order again and again for their rich and authentic flavors.", "url": "/blog/top-indian-dishes" },
+                    { "id": "blog-seasonal-starters", "slug": "seasonal-starters", "image": "/blog/blog-5.webp", "imageAlt": "Seasonal restaurant starters", "date": "29 Oct 2026", "dateDay": "29", "dateMonth": "Oct", "category": "Food & Recipes", "author": "By Admin", "commentLabel": "No Comment", "title": "Seasonal Starters That Begin Every Meal Perfectly", "detailTitle1": "Seasonal Starters", "detailTitle2": "That Begin Every Meal Perfectly", "description": "Explore colorful starters created with seasonal produce, aromatic spices and balanced restaurant flavors.", "url": "/blog/seasonal-starters" },
+                    { "id": "blog-kitchen-teamwork", "slug": "teamwork-inside-our-kitchen", "image": "/blog/blog-6.webp", "imageAlt": "Restaurant kitchen teamwork", "date": "02 Nov 2026", "dateDay": "02", "dateMonth": "Nov", "category": "Chef Stories", "author": "By Admin", "commentLabel": "No Comment", "title": "The Teamwork Behind Every Perfect Restaurant Plate", "detailTitle1": "The Teamwork Behind", "detailTitle2": "Every Perfect Restaurant Plate", "description": "See how communication, timing and shared culinary standards help our kitchen deliver consistently memorable dishes.", "url": "/blog/teamwork-inside-our-kitchen" }
+                  ]
+                },
+                {
+                  "id": "blog-page-2",
+                  "label": "2",
+                  "blogs": [
+                    { "id": "blog-special-desserts", "slug": "special-desserts-this-season", "image": "/blog/blog-5.webp", "imageAlt": "Warm chocolate dessert with berries", "date": "05 Nov 2026", "dateDay": "05", "dateMonth": "Nov", "category": "Desserts", "author": "By Admin", "commentLabel": "No Comment", "title": "Indulge In Our Special Desserts This Season", "detailTitle1": "Indulge In Our Special Desserts", "detailTitle2": "This Season", "description": "Meet the seasonal desserts that combine classic techniques, fresh fruit and indulgent chocolate flavors.", "url": "/blog/special-desserts-this-season" },
+                    { "id": "blog-dining-friends", "slug": "dining-with-friends", "image": "/blog/blog-6.webp", "imageAlt": "Friends enjoying dinner together", "date": "10 Nov 2026", "dateDay": "10", "dateMonth": "Nov", "category": "Tips & Guides", "author": "By Admin", "commentLabel": "No Comment", "title": "A Food Lover’s Guide To Dining With Friends", "detailTitle1": "A Food Lover’s Guide", "detailTitle2": "To Dining With Friends", "description": "Make every group meal easier and more enjoyable with thoughtful ordering, sharing and table-planning tips.", "url": "/blog/dining-with-friends" },
+                    { "id": "blog-refreshing-beverages", "slug": "refreshing-beverages", "image": "/blog/blog-7.webp", "imageAlt": "Colorful refreshing restaurant beverages", "date": "15 Nov 2026", "dateDay": "15", "dateMonth": "Nov", "category": "Beverages", "author": "By Admin", "commentLabel": "No Comment", "title": "Refreshing Beverages To Beat The Heat", "detailTitle1": "Refreshing Beverages", "detailTitle2": "To Beat The Heat", "description": "Cool down with vibrant beverages prepared from fresh fruit, herbs and perfectly balanced flavors.", "url": "/blog/refreshing-beverages" },
+                    { "id": "blog-healthy-eating", "slug": "healthy-eating-menu-options", "image": "/blog/blog-8.webp", "imageAlt": "Nutritious grilled dish with vegetables", "date": "20 Nov 2026", "dateDay": "20", "dateMonth": "Nov", "category": "Healthy Food", "author": "By Admin", "commentLabel": "No Comment", "title": "Healthy Eating: Nutritious Options On Our Menu", "detailTitle1": "Healthy Eating:", "detailTitle2": "Nutritious Options On Our Menu", "description": "Discover satisfying menu choices that bring together wholesome ingredients, good nutrition and excellent taste.", "url": "/blog/healthy-eating-menu-options" },
+                    { "id": "blog-weekend-brunch", "slug": "weekend-brunch-favorites", "image": "/blog/blog-1.webp", "imageAlt": "Weekend brunch favorites", "date": "25 Nov 2026", "dateDay": "25", "dateMonth": "Nov", "category": "Restaurant News", "author": "By Admin", "commentLabel": "No Comment", "title": "Weekend Brunch Favorites Worth Waking Up For", "detailTitle1": "Weekend Brunch Favorites", "detailTitle2": "Worth Waking Up For", "description": "Discover comforting brunch plates, fresh beverages and sweet treats created for a relaxed weekend gathering.", "url": "/blog/weekend-brunch-favorites" },
+                    { "id": "blog-family-celebrations", "slug": "family-celebrations-at-our-restaurant", "image": "/blog/blog-3.webp", "imageAlt": "Family celebration at the restaurant", "date": "30 Nov 2026", "dateDay": "30", "dateMonth": "Nov", "category": "Events", "author": "By Admin", "commentLabel": "No Comment", "title": "Making Family Celebrations Extra Special With Great Food", "detailTitle1": "Making Family Celebrations", "detailTitle2": "Extra Special With Great Food", "description": "Plan a warm and memorable family celebration with welcoming service, flexible menus and a comfortable setting.", "url": "/blog/family-celebrations-at-our-restaurant" }
+                  ]
+                }
+              ],
+              "detailTemplate": {
+                "readTime": "No Comment",
+                "introText": "Great restaurant food begins with fresh ingredients, careful preparation and respect for every flavor. Our culinary team combines proven techniques with thoughtful presentation to make every dining experience feel special.",
+                "articleSections": [
+                  { "id": "blog-detail-section-1", "title": "Fresh Ingredients Make The Difference", "text": "We choose quality produce, aromatic spices and dependable local ingredients whenever possible. Careful sourcing gives every recipe a stronger foundation and helps each flavor remain clear and balanced." },
+                  { "id": "blog-detail-section-2", "title": "Crafted With Care In Our Kitchen", "text": "From preparation to final plating, our chefs focus on timing, texture and presentation. Every detail is checked so guests receive a dish that looks inviting and tastes consistently delicious." }
+                ],
+                "quote": "Great food has the power to bring people together, turn an event into an experience, and leave a lasting impression on every guest.",
+                "benefitsTitle": "Why Quality And Flavor Matter",
+                "benefits": [
+                  { "id": "blog-detail-benefit-1", "title": "Careful Preparation", "description": "Our team follows consistent methods so every dish reaches the table with the right texture and temperature." },
+                  { "id": "blog-detail-benefit-2", "title": "Balanced Flavors", "description": "Fresh herbs, spices and sauces are combined thoughtfully so no single ingredient overwhelms the plate." },
+                  { "id": "blog-detail-benefit-3", "title": "Memorable Presentation", "description": "Food should be enjoyable from the first look to the final bite, so presentation receives the same care as taste." }
+                ],
+                "tipsTitle": "Summary Results",
+                "tips": [
+                  { "id": "blog-detail-tip-1", "number": "01", "title": "Fresh ingredients", "description": "support authentic flavor and dependable quality." },
+                  { "id": "blog-detail-tip-2", "number": "02", "title": "Skilled preparation", "description": "brings consistency to every serving." },
+                  { "id": "blog-detail-tip-3", "number": "03", "title": "Thoughtful presentation", "description": "makes each meal feel more memorable." },
+                  { "id": "blog-detail-tip-4", "number": "04", "title": "Warm hospitality", "description": "completes the experience for every guest." }
+                ],
+                "closingText": "Whether you are planning a relaxed meal, celebrating with friends or simply exploring new flavors, our restaurant is ready to make the occasion special with great food and attentive service.",
+                "recentPostsTitle": "Recent Posts",
+                "recentPosts": [
+                  { "id": "blog-recent-1", "image": "/blog/blog-1.webp", "imageAlt": "Fresh pasta dish", "title": "5 Delicious Pasta Recipes You Must Try", "date": "12 Oct 2026", "url": "/blog/delicious-pasta-recipes" },
+                  { "id": "blog-recent-2", "image": "/blog/blog-8.webp", "imageAlt": "Healthy restaurant meal", "title": "Healthy Eating: Nutritious Options", "date": "20 Nov 2026", "url": "/blog/healthy-eating-menu-options" },
+                  { "id": "blog-recent-3", "image": "/blog/blog-7.webp", "imageAlt": "Refreshing beverages", "title": "Refreshing Beverages To Beat The Heat", "date": "15 Nov 2026", "url": "/blog/refreshing-beverages" },
+                  { "id": "blog-recent-4", "image": "/blog/blog-3.webp", "imageAlt": "Restaurant dining ambience", "title": "Creating The Perfect Ambience", "date": "22 Oct 2026", "url": "/blog/perfect-restaurant-ambience" }
+                ],
+                "categoriesTitle": "Categories",
+                "categories": [
+                  { "id": "blog-category-recipes", "label": "Food & Recipes", "url": "/blog" },
+                  { "id": "blog-category-news", "label": "Restaurant News", "url": "/blog" },
+                  { "id": "blog-category-events", "label": "Events", "url": "/blog" },
+                  { "id": "blog-category-chefs", "label": "Chef Stories", "url": "/blog" },
+                  { "id": "blog-category-guides", "label": "Tips & Guides", "url": "/blog" }
+                ],
+                "tagsTitle": "Popular Tags",
+                "tags": [
+                  { "id": "blog-tag-restaurant", "label": "Restaurant", "url": "/blog" },
+                  { "id": "blog-tag-food", "label": "Food", "url": "/blog" },
+                  { "id": "blog-tag-recipes", "label": "Recipes", "url": "/blog" },
+                  { "id": "blog-tag-chef", "label": "Chef", "url": "/blog" },
+                  { "id": "blog-tag-events", "label": "Events", "url": "/blog" },
+                  { "id": "blog-tag-beverages", "label": "Beverages", "url": "/blog" }
+                ],
+                "sidebarCta": {
+                  "subtitle": "Stay Connected",
+                  "title1": "Love Our",
+                  "title2": "Food Updates?",
+                  "description": "Stay connected for the latest recipes, events and more.",
+                  "buttonText": "Explore Our Menu",
+                  "buttonUrl": "/menu",
+                  "image": "/blog/blog-5.webp",
+                  "imageAlt": "Featured restaurant food update"
+                }
+              }
+            }
+          }
+        },
+        "BlogDetails": {
+          "variants": {
+            "top-investment-strategies-for-2025": {
+              "id": "top-investment-strategies-for-2025",
+              "breadcrumbTitle": "Top 5 Investment Strategies for 2025",
+              "breadcrumbLabel": "Top 5 Investment Strategies for 2025",
+              "category": "Investment",
+              "title1": "Top 5 Investment",
+              "title2": "Strategies for 2025",
+              "description": "Explore effective investment strategies to navigate market opportunities in 2025 and build long-term wealth.",
+              "authorLabel": "By Admin",
+              "date": "15 Feb 2025",
+              "readTime": "6 Min Read",
+              "image": "/blog/1.webp",
+              "imageAlt": "Investor analysing stock market strategies",
+              "introText": "A well-planned investment strategy can help you manage risk, stay disciplined and work toward long-term financial goals. The right mix of assets and regular reviews can make your portfolio more resilient through changing market conditions.",
+              "articleSections": [
+                { "id": "strategy-section-1", "title": "Start With Clear Financial Goals", "text": "Define what you want to achieve, how much time you have and how much market risk you are comfortable taking. Clear goals make it easier to choose suitable investments." },
+                { "id": "strategy-section-2", "title": "Build a Diversified Investment Portfolio", "text": "Spread investments across equities, mutual funds and other suitable instruments. Diversification reduces dependence on a single asset and can create a more balanced experience." }
+              ],
+              "quote": "Successful investing is built on discipline, diversification and the patience to stay focused on long-term goals.",
+              "benefitsTitle": "Benefits of a Strong Investment Strategy",
+              "benefits": [
+                { "id": "strategy-benefit-1", "title": "Reduces Risk", "description": "Limits the impact of weak performance in any single investment." },
+                { "id": "strategy-benefit-2", "title": "Stable Progress", "description": "Creates a more consistent approach toward long-term growth." },
+                { "id": "strategy-benefit-3", "title": "Financial Confidence", "description": "Keeps decisions aligned with your goals during market changes." }
+              ],
+              "tipsTitle": "Top Investment Tips for 2025",
+              "tips": [
+                { "id": "strategy-tip-1", "number": "01", "title": "Set Clear Goals", "description": "Define your short-term and long-term financial objectives." },
+                { "id": "strategy-tip-2", "number": "02", "title": "Diversify Wisely", "description": "Spread investments across suitable assets and sectors." },
+                { "id": "strategy-tip-3", "number": "03", "title": "Review Regularly", "description": "Rebalance your portfolio as markets and goals evolve." },
+                { "id": "strategy-tip-4", "number": "04", "title": "Seek Expert Advice", "description": "Use professional guidance for informed decisions." }
+              ],
+              "closingText": "A disciplined strategy helps you remain prepared for market fluctuations while positioning your portfolio for steady growth and long-term financial confidence.",
+              "recentPostsTitle": "Recent Posts",
+              "recentPosts": [
+                { "id": "strategy-recent-1", "image": "/blog/1.webp", "imageAlt": "Investment strategy chart", "title": "Top 5 Investment Strategies for 2025", "date": "15 Feb 2025", "url": "/blog/top-investment-strategies-for-2025" },
+                { "id": "strategy-recent-2", "image": "/blog/2.webp", "imageAlt": "Coins and investment plant", "title": "Mutual Funds vs Direct Stocks", "date": "12 Feb 2025", "url": "/blog/mutual-funds-vs-direct-stocks" },
+                { "id": "strategy-recent-3", "image": "/service/3.webp", "imageAlt": "IPO investment blocks", "title": "Understanding IPO Investments", "date": "10 Feb 2025", "url": "/services/ipo-investments" },
+                { "id": "strategy-recent-4", "image": "/blog/4.webp", "imageAlt": "Market chart analysis", "title": "How to Read Market Trends", "date": "08 Feb 2025", "url": "/blog/how-to-read-market-trends" }
+              ],
+              "categoriesTitle": "Categories",
+              "categories": [
+                { "id": "strategy-category-1", "label": "Investment", "url": "/blog" },
+                { "id": "strategy-category-2", "label": "Mutual Funds", "url": "/blog" },
+                { "id": "strategy-category-3", "label": "IPO", "url": "/blog" },
+                { "id": "strategy-category-4", "label": "Derivatives", "url": "/blog" },
+                { "id": "strategy-category-5", "label": "Financial Planning", "url": "/blog" }
+              ],
+              "sidebarCta": {
+                "subtitle": "Need Expert Advice?",
+                "title1": "Let's Plan Your",
+                "title2": "Investments",
+                "description": "Get personalized investment guidance from our experts.",
+                "buttonText": "Enquire Now",
+                "buttonUrl": "/enquiry"
+              }
+            },
+            "mutual-funds-vs-direct-stocks": {
+              "id": "mutual-funds-vs-direct-stocks",
+              "breadcrumbTitle": "Mutual Funds vs Direct Stocks: Which is Better?",
+              "breadcrumbLabel": "Mutual Funds vs Direct Stocks: Which is Better?",
+              "category": "Investment Tips",
+              "title1": "Mutual Funds vs Direct Stocks:",
+              "title2": "Which is Better?",
+              "description": "Understand the key differences, benefits and risks to choose the right investment option for your financial goals.",
+              "authorLabel": "By Admin",
+              "date": "12 Feb 2025",
+              "readTime": "7 Min Read",
+              "image": "/blog/2.webp",
+              "imageAlt": "Coins and a growing plant representing investments",
+              "introText": "Mutual funds and direct stocks can both support wealth creation, but they require different levels of knowledge, time and risk tolerance. Understanding how each option works helps you select an approach suited to your goals.",
+              "articleSections": [
+                { "id": "funds-section-1", "title": "How Mutual Funds Work", "text": "Mutual funds pool money from multiple investors and are managed by professionals. They offer diversification and can suit investors who prefer a structured and convenient approach." },
+                { "id": "funds-section-2", "title": "How Direct Stock Investing Works", "text": "Direct investing gives you control over company selection and portfolio decisions. It may offer greater flexibility but requires research, monitoring and disciplined risk management." }
+              ],
+              "quote": "The better investment choice is the one that matches your knowledge, time horizon, risk comfort and financial goals.",
+              "benefitsTitle": "Choosing the Right Investment Path",
+              "benefits": [
+                { "id": "funds-benefit-1", "title": "Diversification", "description": "Mutual funds spread exposure across several investments." },
+                { "id": "funds-benefit-2", "title": "Direct Control", "description": "Stocks give investors control over individual company choices." },
+                { "id": "funds-benefit-3", "title": "Flexible Balance", "description": "A portfolio may combine both options for different goals." }
+              ],
+              "tipsTitle": "How to Make Your Choice",
+              "tips": [
+                { "id": "funds-tip-1", "number": "01", "title": "Assess Your Knowledge", "description": "Consider how confidently you can research individual companies." },
+                { "id": "funds-tip-2", "number": "02", "title": "Measure Your Time", "description": "Decide how much time you can give to portfolio monitoring." },
+                { "id": "funds-tip-3", "number": "03", "title": "Understand Risk", "description": "Select an approach consistent with your risk tolerance." },
+                { "id": "funds-tip-4", "number": "04", "title": "Review Your Goals", "description": "Match every investment with a clear financial objective." }
+              ],
+              "closingText": "Both mutual funds and direct stocks can play a valuable role. A thoughtful mix, supported by regular reviews, can help balance convenience, control and long-term growth.",
+              "recentPostsTitle": "Recent Posts",
+              "recentPosts": [
+                { "id": "funds-recent-1", "image": "/blog/2.webp", "imageAlt": "Coins and investment plant", "title": "Mutual Funds vs Direct Stocks", "date": "12 Feb 2025", "url": "/blog/mutual-funds-vs-direct-stocks" },
+                { "id": "funds-recent-2", "image": "/blog/1.webp", "imageAlt": "Investment strategy chart", "title": "Top 5 Investment Strategies for 2025", "date": "15 Feb 2025", "url": "/blog/top-investment-strategies-for-2025" },
+                { "id": "funds-recent-3", "image": "/service/3.webp", "imageAlt": "IPO investment blocks", "title": "Understanding IPO Investments", "date": "10 Feb 2025", "url": "/services/ipo-investments" },
+                { "id": "funds-recent-4", "image": "/blog/4.webp", "imageAlt": "Market chart analysis", "title": "How to Read Market Trends", "date": "08 Feb 2025", "url": "/blog/how-to-read-market-trends" }
+              ],
+              "categoriesTitle": "Categories",
+              "categories": [
+                { "id": "funds-category-1", "label": "Investment", "url": "/blog" },
+                { "id": "funds-category-2", "label": "Mutual Funds", "url": "/blog" },
+                { "id": "funds-category-3", "label": "IPO", "url": "/blog" },
+                { "id": "funds-category-4", "label": "Derivatives", "url": "/blog" },
+                { "id": "funds-category-5", "label": "Financial Planning", "url": "/blog" }
+              ],
+              "sidebarCta": {
+                "subtitle": "Need Expert Advice?",
+                "title1": "Let's Plan Your",
+                "title2": "Investments",
+                "description": "Get personalized investment guidance from our experts.",
+                "buttonText": "Enquire Now",
+                "buttonUrl": "/enquiry"
+              }
+            },
+            "how-to-read-market-trends": {
+              "id": "how-to-read-market-trends",
+              "breadcrumbTitle": "How to Read Market Trends Like a Pro",
+              "breadcrumbLabel": "How to Read Market Trends Like a Pro",
+              "category": "Trading Guides",
+              "title1": "How to Read Market Trends",
+              "title2": "Like a Pro",
+              "description": "Learn the key indicators and chart patterns to identify market trends and make informed trading decisions.",
+              "authorLabel": "By Admin",
+              "date": "08 Feb 2025",
+              "readTime": "6 Min Read",
+              "image": "/blog/4.webp",
+              "imageAlt": "Market analyst reading candlestick chart trends",
+              "introText": "Market trends show the broader direction in which prices are moving. Learning to combine price action, volume and technical indicators can help traders interpret market conditions with greater clarity.",
+              "articleSections": [
+                { "id": "trends-section-1", "title": "Understand Trend Direction", "text": "An uptrend forms through higher highs and higher lows, while a downtrend shows lower highs and lower lows. Sideways movement suggests a market trading within a range." },
+                { "id": "trends-section-2", "title": "Use Indicators as Confirmation", "text": "Moving averages, volume and momentum indicators can confirm what price action suggests. No single indicator should be used without broader market context." }
+              ],
+              "quote": "Good market analysis is not about predicting every move; it is about reading probabilities and managing risk with discipline.",
+              "benefitsTitle": "Benefits of Trend Analysis",
+              "benefits": [
+                { "id": "trends-benefit-1", "title": "Clear Direction", "description": "Helps identify whether buyers or sellers control the market." },
+                { "id": "trends-benefit-2", "title": "Better Timing", "description": "Supports more structured entry and exit decisions." },
+                { "id": "trends-benefit-3", "title": "Risk Awareness", "description": "Highlights changing conditions before taking positions." }
+              ],
+              "tipsTitle": "Steps to Read Market Trends",
+              "tips": [
+                { "id": "trends-tip-1", "number": "01", "title": "Check the Broader Trend", "description": "Start with a higher time frame before studying short-term moves." },
+                { "id": "trends-tip-2", "number": "02", "title": "Mark Key Levels", "description": "Identify important support and resistance areas." },
+                { "id": "trends-tip-3", "number": "03", "title": "Confirm With Volume", "description": "Use volume to evaluate the strength behind price movement." },
+                { "id": "trends-tip-4", "number": "04", "title": "Manage Every Trade", "description": "Plan risk, position size and exits before entering the market." }
+              ],
+              "closingText": "Trend analysis improves with practice. A consistent process, supported by risk controls and reliable research, can help you make more informed trading decisions.",
+              "recentPostsTitle": "Recent Posts",
+              "recentPosts": [
+                { "id": "trends-recent-1", "image": "/blog/4.webp", "imageAlt": "Market chart analysis", "title": "How to Read Market Trends", "date": "08 Feb 2025", "url": "/blog/how-to-read-market-trends" },
+                { "id": "trends-recent-2", "image": "/blog/1.webp", "imageAlt": "Investment strategy chart", "title": "Top 5 Investment Strategies for 2025", "date": "15 Feb 2025", "url": "/blog/top-investment-strategies-for-2025" },
+                { "id": "trends-recent-3", "image": "/blog/2.webp", "imageAlt": "Coins and investment plant", "title": "Mutual Funds vs Direct Stocks", "date": "12 Feb 2025", "url": "/blog/mutual-funds-vs-direct-stocks" },
+                { "id": "trends-recent-4", "image": "/service/3.webp", "imageAlt": "IPO investment blocks", "title": "Understanding IPO Investments", "date": "10 Feb 2025", "url": "/services/ipo-investments" }
+              ],
+              "categoriesTitle": "Categories",
+              "categories": [
+                { "id": "trends-category-1", "label": "Investment", "url": "/blog" },
+                { "id": "trends-category-2", "label": "Mutual Funds", "url": "/blog" },
+                { "id": "trends-category-3", "label": "IPO", "url": "/blog" },
+                { "id": "trends-category-4", "label": "Derivatives", "url": "/blog" },
+                { "id": "trends-category-5", "label": "Financial Planning", "url": "/blog" }
+              ],
+              "sidebarCta": {
+                "subtitle": "Need Expert Advice?",
+                "title1": "Let's Plan Your",
+                "title2": "Investments",
+                "description": "Get personalized investment guidance from our experts.",
+                "buttonText": "Enquire Now",
+                "buttonUrl": "/enquiry"
+              }
+            }
+          }
+        },
+        "whyChooseUs": {
+          "variants": {
+            "RestaurantFoodWhyChooseUs1": {
+              "subtitle": "Why Choose Us",
+              "title1": "Great Food",
+              "title2": "Great Reasons",
+              "description": "We go beyond just serving food — we create memorable dining experiences with fresh ingredients, authentic flavors, and a warm, welcoming atmosphere.",
+              "features": [
+                {
+                  "id": "why-choose-fresh-ingredients",
+                  "icon": "FaLeaf",
+                  "title": "Fresh & Quality Ingredients",
+                  "description": "We use locally sourced, farm-fresh ingredients."
+                },
+                {
+                  "id": "why-choose-expert-chefs",
+                  "icon": "GiChefToque",
+                  "title": "Expert Chefs",
+                  "description": "Our chefs craft delicious dishes with passion."
+                },
+                {
+                  "id": "why-choose-unique-flavors",
+                  "icon": "FaGem",
+                  "title": "Unique & Delicious Flavors",
+                  "description": "A perfect blend of tradition and modern taste."
+                },
+                {
+                  "id": "why-choose-friendly-ambience",
+                  "icon": "FaRegHeart",
+                  "title": "Warm & Friendly Ambience",
+                  "description": "A cozy place to enjoy great food with loved ones."
+                }
+              ],
+              "primaryButton": {
+                "text": "Book a Table",
+                "url": "/book-a-table"
+              },
+              "secondaryButton": {
+                "text": "Explore Our Menu",
+                "url": "/menu"
+              },
+              "backgroundImage": "/choose/bg.webp",
+              "backgroundImageAlt": "Signature burger and pizza on a dark restaurant background",
+              "dishCard": {
+                "title": "Signature",
+                "highlightedTitle": "Burger",
+                "rating": 5,
+                "ratingLabel": "Five star signature burger",
+                "ingredients": [
+                  { "id": "home-burger-fresh-lettuce", "label": "Fresh Lettuce" },
+                  { "id": "home-burger-beef-patty", "label": "Juicy Beef Patty" },
+                  { "id": "home-burger-cheese", "label": "Cheese Slice" },
+                  { "id": "home-burger-tomato-onion", "label": "Tomato & Onion" },
+                  { "id": "home-burger-special-sauce", "label": "Special Sauce" }
+                ]
+              }
+            },
+            "RestaurantFoodAboutWhyChooseUs1": {
+              "subtitle": "Why Choose Us",
+              "title1": "Great Food",
+              "title2": "Great Reasons",
+              "description": "We go beyond just serving food — we create memorable dining experiences with fresh ingredients, authentic flavors, and a warm, welcoming atmosphere.",
+              "features": [
+                {
+                  "id": "about-why-choose-fresh-ingredients",
+                  "icon": "FaLeaf",
+                  "title": "Fresh & Quality Ingredients",
+                  "description": "We use locally sourced, farm-fresh ingredients."
+                },
+                {
+                  "id": "about-why-choose-expert-chefs",
+                  "icon": "GiChefToque",
+                  "title": "Expert Chefs",
+                  "description": "Our chefs craft delicious dishes with passion."
+                },
+                {
+                  "id": "about-why-choose-unique-flavors",
+                  "icon": "FaGem",
+                  "title": "Unique & Delicious Flavors",
+                  "description": "A perfect blend of tradition and modern taste."
+                },
+                {
+                  "id": "about-why-choose-friendly-ambience",
+                  "icon": "FaRegHeart",
+                  "title": "Warm & Friendly Ambience",
+                  "description": "A cozy place to enjoy great food with loved ones."
+                }
+              ],
+              "primaryButton": {
+                "text": "Book a Table",
+                "url": "/book-a-table"
+              },
+              "secondaryButton": {
+                "text": "Explore Our Menu",
+                "url": "/menu"
+              },
+              "backgroundImage": "/choose/bg.webp",
+              "backgroundImageAlt": "Signature burger and pizza on a dark restaurant background",
+              "dishCard": {
+                "title": "Signature",
+                "highlightedTitle": "Burger",
+                "rating": 5,
+                "ratingLabel": "Five star signature burger",
+                "ingredients": [
+                  { "id": "about-burger-fresh-lettuce", "label": "Fresh Lettuce" },
+                  { "id": "about-burger-beef-patty", "label": "Juicy Beef Patty" },
+                  { "id": "about-burger-cheese", "label": "Cheese Slice" },
+                  { "id": "about-burger-tomato-onion", "label": "Tomato & Onion" },
+                  { "id": "about-burger-special-sauce", "label": "Special Sauce" }
+                ]
+              }
+            }
+          }
+        },
+        "Booking": {
+          "variants": {
+            "RestaurantFoodBooking1": {
+              "subtitle": "Reserve Your Spot",
+              "title": "Book A",
+              "highlightedTitle": "Table",
+              "mainImage": "/blog/blog-3.webp",
+              "mainImageAlt": "Warm restaurant table prepared for guests",
+              "form": {
+                "eyebrow": "Make A Reservation",
+                "title": "Reserve",
+                "highlightedTitle": "Your Spot",
+                "description": "Fill in the details below and we’ll confirm your booking shortly.",
+                "nameLabel": "Your Name",
+                "namePlaceholder": "Your Name *",
+                "emailLabel": "Your Email",
+                "emailPlaceholder": "Your Email *",
+                "phoneLabel": "Your Phone",
+                "phonePlaceholder": "Your Phone *",
+                "dateLabel": "Select Date",
+                "timeLabel": "Select Time",
+                "timePlaceholder": "Select Time *",
+                "guestsLabel": "Number of Guests",
+                "guestsPlaceholder": "Number of Guests *",
+                "requestLabel": "Special Request",
+                "requestPlaceholder": "Special Request (Optional)",
+                "submitText": "Book Table",
+                "successMessage": "Thank you. Your table reservation has been submitted successfully.",
+                "timeOptions": [
+                  { "id": "booking-time-1100", "label": "11:00 AM", "value": "11:00" },
+                  { "id": "booking-time-1300", "label": "1:00 PM", "value": "13:00" },
+                  { "id": "booking-time-1500", "label": "3:00 PM", "value": "15:00" },
+                  { "id": "booking-time-1800", "label": "6:00 PM", "value": "18:00" },
+                  { "id": "booking-time-2000", "label": "8:00 PM", "value": "20:00" },
+                  { "id": "booking-time-2200", "label": "10:00 PM", "value": "22:00" }
+                ],
+                "guestOptions": [
+                  { "id": "booking-guests-1", "label": "1 Guest", "value": "1" },
+                  { "id": "booking-guests-2", "label": "2 Guests", "value": "2" },
+                  { "id": "booking-guests-3", "label": "3 Guests", "value": "3" },
+                  { "id": "booking-guests-4", "label": "4 Guests", "value": "4" },
+                  { "id": "booking-guests-5", "label": "5 Guests", "value": "5" },
+                  { "id": "booking-guests-6", "label": "6 or More Guests", "value": "6-plus" }
+                ]
+              },
+              "features": [
+                { "id": "booking-feature-easy", "icon": "FaCalendarAlt", "title": "Easy Reservation", "description": "Book your table in just a few clicks." },
+                { "id": "booking-feature-family", "icon": "FaUsers", "title": "Perfect for Family & Friends", "description": "A great place to dine together." },
+                { "id": "booking-feature-memorable", "icon": "FaStar", "title": "Memorable Dining Experience", "description": "Delicious food and a cozy ambience." },
+                { "id": "booking-feature-service", "icon": "FaConciergeBell", "title": "Excellent Service", "description": "Warm hospitality and attentive staff." }
+              ],
+              "openingHours": {
+                "eyebrow": "Opening Hours",
+                "title": "Our Opening",
+                "highlightedTitle": "Hours",
+                "description": "We welcome you to dine with us at your convenience. Our restaurant is open throughout the week with flexible hours.",
+                "backgroundImage": "/blog/blog-8.webp",
+                "backgroundImageAlt": "Fresh restaurant dish beside the opening hours",
+                "items": [
+                  { "id": "booking-hours-weekday", "days": "Monday – Friday", "hours": "11:00 AM – 11:00 PM" },
+                  { "id": "booking-hours-weekend", "days": "Saturday – Sunday", "hours": "10:00 AM – 12:00 AM" }
+                ]
+              },
+              "assistance": {
+                "eyebrow": "Reservation Contact",
+                "title": "Need",
+                "highlightedTitle": "Assistance?",
+                "description": "For table reservations or special requests, feel free to call us.",
+                "phoneLabel": "Call Us For Reservation",
+                "phone": "+1 000000000",
+                "email": "info@xyz.com",
+                "address": "123 Main St, New York, NY, USA",
+                "backgroundImage": "/blog/blog-6.webp",
+                "backgroundImageAlt": "Guests enjoying an evening at the restaurant"
+              }
+            }
+          }
+        },
+        "contact": {
+          "variants": {
+            "RestaurantFoodContact1": {
+              "intro": {
+                "eyebrow": "LET'S CONNECT",
+                "title": "Contact",
+                "titleHighlight": "Us",
+                "description": "Have questions or need expert guidance? Our team is here to help you with all your investment related queries. Get in touch with us today and let's build your financial future together.",
+                "highlights": [
+                  {
+                    "id": "contact-highlight-response",
+                    "icon": "FaPhoneAlt",
+                    "title": "Quick Response",
+                    "description": "We'll get back to you at the earliest."
+                  },
+                  {
+                    "id": "contact-highlight-confidential",
+                    "icon": "FaShieldAlt",
+                    "title": "Confidential",
+                    "description": "Your information is always safe with us."
+                  },
+                  {
+                    "id": "contact-highlight-support",
+                    "icon": "FaUsers",
+                    "title": "Expert Support",
+                    "description": "Get guidance from our investment professionals."
+                  }
+                ]
+              },
+              "form": {
+                "eyebrow": "CONTACT FORM",
+                "helperText": "Required fields are marked clearly.",
+                "fullNameLabel": "Your Name",
+                "fullNamePlaceholder": "e.g. John",
+                "phoneLabel": "Phone Number",
+                "phonePlaceholder": "e.g. +1 000000000",
+                "emailLabel": "Email Address",
+                "emailPlaceholder": "e.g. john@example.com",
+                "subjectLabel": "Subject",
+                "subjectPlaceholder": "e.g. Reservation, Catering, Feedback",
+                "messageLabel": "Message",
+                "servicePlaceholder": "Select Service",
+                "messagePlaceholder": "Write your message...",
+                "buttonText": "Submit Inquiry",
+                "privacyText": "Your information is safe with us. We never share your details with third parties.",
+                "successMessage": "Thank you. Your message has been submitted successfully.",
+                "servicesList": [
+                  { "id": "contact-service-equity", "label": "Equity Trading", "value": "equity-trading" },
+                  { "id": "contact-service-mutual-funds", "label": "Mutual Funds", "value": "mutual-funds" },
+                  { "id": "contact-service-ipo", "label": "IPO Investments", "value": "ipo-investments" },
+                  { "id": "contact-service-derivatives", "label": "Derivatives", "value": "derivatives" },
+                  { "id": "contact-service-research", "label": "Research & Advisory", "value": "research-advisory" },
+                  { "id": "contact-service-portfolio", "label": "Portfolio Management", "value": "portfolio-management" }
+                ]
+              },
+              "contactPanel": {
+                "eyebrow": "CONTACT US",
+                "title1": "Get In Touch",
+                "titleHighlight": "With Us",
+                "description": "Have questions or feedback? Reach out through the form, call us, or visit our restaurant. We look forward to connecting with you.",
+                "backgroundImage": "/blog/blog-3.webp",
+                "backgroundImageAlt": "Warm restaurant dining area",
+                "items": [
+                  {
+                    "id": "contact-info-phone",
+                    "icon": "FaPhoneAlt",
+                    "title": "Phone",
+                    "lines": [
+                      { "id": "contact-phone-number", "text": "+1 000000000" },
+                      { "id": "contact-phone-hours", "text": "Mon - Sat, 9:00 AM - 6:00 PM" }
+                    ]
+                  },
+                  {
+                    "id": "contact-info-email",
+                    "icon": "FaEnvelope",
+                    "title": "Email",
+                    "lines": [
+                      { "id": "contact-email-address", "text": "info@xyz.com" },
+                      { "id": "contact-email-response", "text": "We usually respond within 24 hours." }
+                    ]
+                  },
+                  {
+                    "id": "contact-info-address",
+                    "icon": "FaMapMarkerAlt",
+                    "title": "Office Address",
+                    "lines": [
+                      { "id": "contact-office-address", "text": "123 Main St, New York, NY, USA" }
+                    ]
+                  }
+                ]
+              },
+              "location": {
+                "eyebrow": "OUR LOCATION",
+                "title": "Visit Our Office",
+                "description": "We'd love to meet you in person. Drop by our office for a detailed discussion about your investment goals.",
+                "buttonText": "Get Directions",
+                "buttonUrl": "https://www.google.com/maps/search/?api=1&query=123+Main+St%2C+New+York%2C+NY%2C+USA",
+                "mapUrl": "https://www.google.com/maps?q=123+Main+St,+New+York,+NY,+USA&output=embed",
+                "mapTitle": "Map showing the TASTY BITE location in New York"
+              }
+            }
+          }
+        },
+        "enquiry": {
+          "variants": {
+            "RestaurantFoodEnquiry1": {
+              "intro": {
+                "eyebrow": "GET IN TOUCH",
+                "title": "Enquire",
+                "titleHighlight": "Now",
+                "description": "Have questions or need expert guidance? Fill out this form and our team will get in touch with you to help you make informed investment decisions.",
+                "highlights": [
+                  {
+                    "id": "enquiry-highlight-guidance",
+                    "icon": "FaUserTie",
+                    "title": "Expert Guidance",
+                    "description": "From experienced investment professionals."
+                  },
+                  {
+                    "id": "enquiry-highlight-response",
+                    "icon": "FaClock",
+                    "title": "Quick Response",
+                    "description": "We respond within 24 hours."
+                  },
+                  {
+                    "id": "enquiry-highlight-confidential",
+                    "icon": "FaLock",
+                    "title": "100% Confidential",
+                    "description": "Your information is always secure."
+                  }
+                ]
+              },
+              "vision": {
+                "eyebrow": "YOUR FINANCIAL GOALS MATTER",
+                "title1": "Let's Build a Stronger",
+                "title2": "Financial Future Together",
+                "description": "Whether you're planning for retirement, growing your wealth, or exploring new investment opportunities, our team is here to help."
+              },
+              "priority": {
+                "eyebrow": "WHY ENQUIRE WITH US",
+                "title1": "Your Goals.",
+                "title2": "Our Priority.",
+                "description": "We believe every investor is unique. By sharing a few details, you help us understand your needs better, so we can provide personalized advice and solutions that are right for you.",
+                "features": [
+                  {
+                    "id": "enquiry-feature-advice",
+                    "icon": "FaUserTie",
+                    "title": "Personalized Advice",
+                    "description": "Investment solutions tailored to your goals, risk profile and financial future."
+                  },
+                  {
+                    "id": "enquiry-feature-options",
+                    "icon": "FaChartBar",
+                    "title": "Wide Range of Options",
+                    "description": "Access to equities, mutual funds, bonds, ETFs and more."
+                  },
+                  {
+                    "id": "enquiry-feature-process",
+                    "icon": "FaShieldAlt",
+                    "title": "Transparent Process",
+                    "description": "Clear communication and complete transparency at every step."
+                  },
+                  {
+                    "id": "enquiry-feature-partnership",
+                    "icon": "FaHandshake",
+                    "title": "Long-Term Partnership",
+                    "description": "We're with you beyond the transaction for your continued success."
+                  }
+                ]
+              },
+              "form": {
+                "eyebrow": "FILL THE FORM",
+                "title": "Send Us a Message",
+                "description": "Complete the form below and our team will get back to you shortly.",
+                "fullNamePlaceholder": "Full Name",
+                "phonePlaceholder": "Phone Number",
+                "emailPlaceholder": "Email Address",
+                "servicePlaceholder": "Select Service",
+                "investmentPlaceholder": "Select Investment Type",
+                "messagePlaceholder": "Your Message",
+                "buttonText": "Submit Enquiry",
+                "privacyText": "Your information is safe with us. We never share your details with third parties.",
+                "successMessage": "Thank you. Your enquiry has been submitted successfully.",
+                "servicesList": [
+                  { "id": "enquiry-service-equity", "label": "Equity Trading", "value": "equity-trading" },
+                  { "id": "enquiry-service-mutual-funds", "label": "Mutual Funds", "value": "mutual-funds" },
+                  { "id": "enquiry-service-ipo", "label": "IPO Investments", "value": "ipo-investments" },
+                  { "id": "enquiry-service-derivatives", "label": "Derivatives", "value": "derivatives" },
+                  { "id": "enquiry-service-research", "label": "Research & Advisory", "value": "research-advisory" },
+                  { "id": "enquiry-service-portfolio", "label": "Portfolio Management", "value": "portfolio-management" }
+                ],
+                "investmentTypes": [
+                  { "id": "investment-type-beginner", "label": "Beginner Investor", "value": "beginner" },
+                  { "id": "investment-type-active", "label": "Active Trader", "value": "active-trader" },
+                  { "id": "investment-type-long-term", "label": "Long-Term Investor", "value": "long-term" },
+                  { "id": "investment-type-retirement", "label": "Retirement Planning", "value": "retirement" },
+                  { "id": "investment-type-other", "label": "Other", "value": "other" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      "templateComponents": {
+        "shared": {
+          "Topbar": "RestaurantFoodTopBar1",
+          "Header": "RestaurantFoodHeader1",
+          "Footer": "RestaurantFoodFooter1"
+        },
+        "pages": {
+          "home": {
+            "components": [
+              {
+                "key": "HeroSection",
+                "component": "RestaurantFoodHero1"
+              },
+              {
+                "key": "OurServiceSection",
+                "component": "RestaurantFoodOurService1"
+              },
+              {
+                "key": "AboutUs",
+                "component": "RestaurantFoodAboutUs1"
+              },
+              {
+                "key": "OurMenuSection",
+                "component": "RestaurantFoodOurMenu1"
+              },
+              {
+                "key": "ChefSection",
+                "component": "RestaurantFoodChef1"
+              },
+              {
+                "key": "GallerySection",
+                "component": "RestaurantFoodGallery1"
+              },
+              {
+                "key": "Testimonials",
+                "component": "RestaurantFoodTestimonials1"
+              },
+              {
+                "key": "Blogs",
+                "component": "RestaurantFoodBlogs1"
+              }
+            ]
+          },
+          "about": {
+            "components": [
+              {
+                "key": "AboutUs",
+                "component": "RestaurantFoodAboutUs1"
+              },
+              {
+                "key": "WhyChooseUs",
+                "component": "RestaurantFoodAboutWhyChooseUs1"
+              },
+              {
+                "key": "ChefSection",
+                "component": "RestaurantFoodChef1"
+              },
+              {
+                "key": "Achievement",
+                "component": "RestaurantFoodAchievement1"
+              },
+              {
+                "key": "Journey",
+                "component": "RestaurantFoodJourney1"
+              }
+            ]
+          },
+          "chefs": {
+            "components": [
+              {
+                "key": "ChefPageSection",
+                "component": "RestaurantFoodChefPage1"
+              }
+            ]
+          },
+          "team": {
+            "components": []
+          },
+          "gallery": {
+            "components": [
+              {
+                "key": "GalleryPageSection",
+                "component": "RestaurantFoodGalleryPage1"
+              }
+            ]
+          },
+          "testimonials": {
+            "components": [
+              {
+                "key": "TestimonialPageSection",
+                "component": "RestaurantFoodTestimonialPage1"
+              }
+            ]
+          },
+          "menu": {
+            "components": [
+              {
+                "key": "MenuPage",
+                "component": "RestaurantFoodMenuPage1"
+              }
+            ]
+          },
+          "services": {
+            "components": []
+          },
+          "serviceDetail": {
+            "components": [
+              {
+                "key": "ServiceDetails",
+                "component": "ServiceDetailContent"
+              }
+            ]
+          },
+          "blog": {
+            "components": [
+              {
+                "key": "BlogPageSection",
+                "component": "RestaurantFoodBlogPage1"
+              }
+            ]
+          },
+          "blogDetail": {
+            "components": [
+              {
+                "key": "BlogDetailContent",
+                "component": "BlogDetailContent"
+              }
+            ]
+          },
+          "contact": {
+            "components": [
+              {
+                "key": "Contact",
+                "component": "RestaurantFoodContact1"
+              }
+            ]
+          },
+          "bookATable": {
+            "components": [
+              {
+                "key": "BookingSection",
+                "component": "RestaurantFoodBooking1"
+              }
+            ]
+          },
+          "enquiry": {
+            "components": [
+              {
+                "key": "enquiry",
+                "component": "RestaurantFoodEnquiry1"
+              }
+            ]
+          },
+          "notFound": {
+            "components": [
+              {
+                "key": "NotFoundSection",
+                "component": "NotFoundSection"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "pages": {
+    "home": {
+      "components": [
+        "TopBar",
+        "Header",
+        "HeroSection",
+        "OurServiceSection",
+        "AboutUs",
+        "OurMenuSection",
+        "ChefSection",
+        "GallerySection",
+        "Testimonials",
+        "Blogs",
+        "Footer"
+      ]
+    },
+    "about": {
+      "components": [
+        "TopBar",
+        "Header",
+        "Breadcrumb",
+        "AboutUs",
+        "WhyChooseUs",
+        "ChefSection",
+        "Achievement",
+        "Journey",
+        "Footer"
+      ]
+    },
+    "chefs": {
+      "components": [
+        "TopBar",
+        "Header",
+        "Breadcrumb",
+        "ChefPageSection",
+        "Footer"
+      ]
+    },
+    "team": {
+      "components": []
+    },
+    "gallery": {
+      "components": [
+        "TopBar",
+        "Header",
+        "Breadcrumb",
+        "GalleryPageSection",
+        "Footer"
+      ]
+    },
+    "testimonials": {
+      "components": [
+        "TopBar",
+        "Header",
+        "Breadcrumb",
+        "TestimonialPageSection",
+        "Footer"
+      ]
+    },
+    "menu": {
+      "components": [
+        "TopBar",
+        "Header",
+        "Breadcrumb",
+        "MenuPage",
+        "Footer"
+      ]
+    },
+    "services": {
+      "components": []
+    },
+    "services/[id]": {
+      "components": [
+        "TopBar",
+        "Header",
+        "Breadcrumb",
+        "ServiceDetailContent",
+        "Footer"
+      ]
+    },
+    "blog": {
+      "components": [
+        "TopBar",
+        "Header",
+        "Breadcrumb",
+        "BlogPageSection",
+        "Footer"
+      ]
+    },
+    "blog/[id]": {
+      "components": [
+        "TopBar",
+        "Header",
+        "Breadcrumb",
+        "BlogDetailContent",
+        "Footer"
+      ]
+    },
+    "contact": {
+      "components": [
+        "TopBar",
+        "Header",
+        "Breadcrumb",
+        "ContactSection",
+        "Footer"
+      ]
+    },
+    "book-a-table": {
+      "components": [
+        "TopBar",
+        "Header",
+        "Breadcrumb",
+        "BookingSection",
+        "Footer"
+      ]
+    },
+    "enquiry": {
+      "components": [
+        "TopBar",
+        "Header",
+        "Breadcrumb",
+        "EnquirySection",
+        "Footer"
+      ]
+    },
+    "not-found": {
+      "components": [
+        "TopBar",
+        "Header",
+        "NotFoundSection",
+        "Footer"
+      ]
+    }
+  }
+}

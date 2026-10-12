@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Fonts */
+  --font-primary: var(--font-poppins), sans-serif;
+  --font-heading: var(--font-poppins), sans-serif;
+
+  /* Global Colors — Tasty Bite Restaurant Design */
+  --color-bg-main: #050505;
+  --color-bg-card: #0d0d0d;
+  --color-bg-alt: #111111;
+  --color-primary: #ffcc00;
+  --color-accent: #ef1b24;
+  --color-accent-light: #ffdd33;
+  --color-text: #ffffff;
+  --color-text-light: #b8b8b8;
+  --color-border: #2a2a2a;
+}
+
+body {
+  color: var(--color-text);
+  background-color: var(--color-bg-main);
+}
