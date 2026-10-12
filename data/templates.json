@@ -2171,16 +2171,16 @@
               },
               "blogs": [
                 {
-                  "id": "blog-best-dishes",
+                  "id": "blog-pasta-recipes",
                   "image": "/blog/blog-1.webp",
-                  "imageAlt": "Freshly prepared restaurant dish",
-                  "date": "18 Dec 2025",
-                  "category": "FOOD STORIES",
+                  "imageAlt": "Fresh pasta with tomatoes and herbs",
+                  "date": "12 Oct 2026",
+                  "category": "Food & Recipes",
                   "author": "By Admin",
                   "commentLabel": "No Comment",
-                  "title": "The Best Dishes To Try This Season At Our Restaurant",
-                  "description": "Discover seasonal dishes prepared with fresh ingredients and bold flavours.",
-                  "url": "/blog",
+                  "title": "5 Delicious Pasta Recipes You Must Try",
+                  "description": "Discover five comforting pasta recipes made with fresh ingredients, balanced sauces and restaurant-inspired flavor.",
+                  "url": "/blog/delicious-pasta-recipes",
                   "content": {
                     "intro": "Technology issues can be inconvenient, costly, and disruptive to your daily business operations. The good news is that most common IT problems can be prevented with simple maintenance and mindful habits. In this guide, we will share practical tips to keep your systems in good condition and avoid unexpected downtime.",
                     "sections": [
@@ -2200,16 +2200,16 @@
                   }
                 },
                 {
-                  "id": "blog-classy-sauces",
+                  "id": "blog-chef-magic",
                   "image": "/blog/blog-2.webp",
-                  "imageAlt": "Waiter serving guests at the restaurant",
-                  "date": "20 Dec 2025",
-                  "category": "CHEF TIPS",
+                  "imageAlt": "Chef carefully plating a restaurant dish",
+                  "date": "18 Oct 2026",
+                  "category": "Chef Stories",
                   "author": "By Admin",
                   "commentLabel": "No Comment",
-                  "title": "Classy Sauces To Make Meat Melt In Your Mouth",
-                  "description": "Learn how our chefs build rich sauces that elevate every dish.",
-                  "url": "/blog",
+                  "title": "Behind The Scenes: How Our Chefs Create Magic",
+                  "description": "Step inside our kitchen and see how skill, teamwork and fresh ingredients come together in every plate.",
+                  "url": "/blog/how-our-chefs-create-magic",
                   "content": {
                     "intro": "Technology issues can be inconvenient, costly, and disruptive to your daily business operations. The good news is that most common IT problems can be prevented with simple maintenance and mindful habits. In this guide, we will share practical tips to keep your systems in good condition and avoid unexpected downtime.",
                     "sections": [
@@ -2229,16 +2229,16 @@
                   }
                 },
                 {
-                  "id": "blog-restaurant-interior",
+                  "id": "blog-perfect-ambience",
                   "image": "/blog/blog-3.webp",
-                  "imageAlt": "Warm and elegant restaurant interior",
-                  "date": "25 Dec 2025",
-                  "category": "RESTAURANT NEWS",
+                  "imageAlt": "Warm and welcoming restaurant interior",
+                  "date": "22 Oct 2026",
+                  "category": "Restaurant News",
                   "author": "By Admin",
                   "commentLabel": "No Comment",
-                  "title": "New Interior Design In Our Delicious Restaurant",
-                  "description": "Step inside our refreshed dining space designed for warm and memorable moments.",
-                  "url": "/blog",
+                  "title": "Creating The Perfect Ambience For A Memorable Dining Experience",
+                  "description": "Learn how lighting, thoughtful service and comfortable design shape an unforgettable restaurant experience.",
+                  "url": "/blog/perfect-restaurant-ambience",
                   "content": {
                     "intro": "Technology issues can be inconvenient, costly, and disruptive to your daily business operations. The good news is that most common IT problems can be prevented with simple maintenance and mindful habits. In this guide, we will share practical tips to keep your systems in good condition and avoid unexpected downtime.",
                     "sections": [

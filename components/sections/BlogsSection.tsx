@@ -41,20 +41,20 @@ export const BlogsSection = ({ data, isPage = false }: BlogsSectionProps) => {
                 key={blog.id}
                 className="group flex h-full flex-col overflow-hidden rounded-lg border border-[#806800] bg-[#050505] transition-transform duration-300 hover:-translate-y-1"
               >
-                <div className="relative h-48 overflow-hidden sm:h-52">
-                  <Image
-                    src={blog.image}
-                    alt={blog.imageAlt ?? blog.title}
-                    fill
-                    sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
-                    className="object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
+                <Link href={blog.url} className="relative block h-48 overflow-hidden sm:h-52">
+                    <Image
+                      src={blog.image}
+                      alt={blog.imageAlt ?? blog.title}
+                      fill
+                      sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
+                      className="object-cover transition-transform duration-500 group-hover:scale-105"
+                    />
 
-                  <div className="absolute right-0 top-0 flex min-w-14 flex-col items-center rounded-bl-lg border-b border-l border-[#806800] bg-black px-3 py-2 font-serif text-white">
-                    <span className="text-xl leading-none text-[#ffc400]">{dateDay}</span>
-                    <span className="mt-1 text-lg leading-none">{dateDetails[0]}</span>
-                  </div>
-                </div>
+                    <div className="absolute right-0 top-0 flex min-w-14 flex-col items-center rounded-bl-lg border-b border-l border-[#806800] bg-black px-3 py-2 font-serif text-white">
+                      <span className="text-xl leading-none text-[#ffc400]">{dateDay}</span>
+                      <span className="mt-1 text-lg leading-none">{dateDetails[0]}</span>
+                    </div>
+                  </Link>
 
                 <div className="flex flex-1 flex-col p-4">
                   {(blog.author || blog.commentLabel) && (
