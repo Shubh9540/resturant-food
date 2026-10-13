@@ -399,17 +399,17 @@
               "customers": [
                 {
                   "id": "hero-customer-1",
-                  "image": "/team/1.webp",
+                  "image": "/testimonials/t1.webp",
                   "imageAlt": "Happy TASTY BITE customer"
                 },
                 {
                   "id": "hero-customer-2",
-                  "image": "/team/2.webp",
+                  "image": "/testimonials/t2.webp",
                   "imageAlt": "Happy restaurant guest"
                 },
                 {
                   "id": "hero-customer-3",
-                  "image": "/team/3.webp",
+                  "image": "/testimonials/t3.webp",
                   "imageAlt": "Satisfied TASTY BITE diner"
                 }
               ],
